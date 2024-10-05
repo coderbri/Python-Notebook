@@ -13,7 +13,7 @@
 
 | Day | Section | Level |
 | :-: | :------ | ----: |
-| D-01 | [Managing Data with Python Variables](#) | Beginner |
+| D-01 | [Managing Data with Python Variables](./Beginner_Python/D-01-Mainpulating_Data_with_Python_Variables/) | Beginner |
 | D-02 | Understanding Data Types and How to Manipulate Strings | Beginner |
 <!-- | D-03 | Control Flow and Logical Operators | Beginner |
 | D-04 | Randomization and Python Lists | Beginner | -->
