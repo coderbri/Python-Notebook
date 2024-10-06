@@ -13,23 +13,30 @@
 
 | Day | Section | Level |
 | :-: | :------ | ----: |
-| D-01 | [Managing Data with Python Variables](./Beginner_Python/D-01-Mainpulating_Data_with_Python_Variables/) | Beginner |
-| D-02 | Understanding Data Types and How to Manipulate Strings | Beginner |
-<!-- | D-03 | Control Flow and Logical Operators | Beginner |
-| D-04 | Randomization and Python Lists | Beginner | -->
+| D01 | [Managing Data with Python Variables](./Beginner_Python/D01-Mainpulating_Data_with_Python_Variables/) | Beginner |
+| D02 | Data Types and String Manipulation | Beginner |
+| D03 | Control Flow and Logical Operators | Beginner |
+| D04 | Randomization and Python Lists | Beginner |
+| D05 | ... | Beginner |
+| D06 | ... | Beginner |
+| D07 | ... | Beginner |
+| D08 | ... | Beginner |
+| D09 | ... | Beginner |
+| D10 | ... | Beginner |
+| D11 | ... | Beginner |
+| D12 | ... | Beginner |
+| D13 | ... | Beginner |
+| D14 | ... | Beginner |
 
 
-<!--
-### Intermediate Concepts
+<!-- ### Intermediate Concepts -->
 
-### Projects
+## Projects
 
 | N˚ | Concept | Level |
 | :- | :------ | ----: |
-| 01 | Band Name Generator | Beginner |
+| 01 | [Band Name Generator](https://github.com/coderbri/01_band_name_generator.git) | Beginner |
 | 02 | Tip Calculator | Beginner |
-
--->
 
 Course Duration: 2024.10.04 - present
 
