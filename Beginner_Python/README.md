@@ -1,6 +1,6 @@
 # Beginner Python
 
-## D-01 - Managing Data with Python Variables
+## D01 - Managing Data with Python Variables
 
 | N˚ | Concept |
 | :- | :------ |
@@ -11,14 +11,14 @@
 | 1.4 | [Python Variables](./D01-Managing_Data_with_Python_Variables/1.4-Variables/task4.py) |
 | 1.5 | [Variable Naming](./D01-Managing_Data_with_Python_Variables/1.5-Variable_Naming/task5.py) |
 
-## D-02 - Understanding Data Types
+## D02 - Understanding Data Types
 
 | N˚ | Concept |
 | :- | :------ |
-| 2.1 | Python Primitive Data Types |
-| 2.2 | Type Error, Checking, and Conversion |
-| 2.3 | Mathematical Operations |
-| 2.4 | Number Manipulation in Python |
+| 2.1 | [Python Primitive Data Types](./D02-Data_Types_and_String_Manipulation/2.1-Data_Types/task1.py) |
+| 2.2 | [Type Error, Checking, and Conversion](./D02-Data_Types_and_String_Manipulation/2.2-Type_Error_Checking_and_Conversion/task2.py) |
+| 2.3 | [Mathematical Operations](./D02-Data_Types_and_String_Manipulation/2.3-Mathematical_Operations/task3.py) |
+| 2.4 | [Number Manipulation & F-Strings](./D02-Data_Types_and_String_Manipulation/2.4-Number_Manipulation_and_fStrings/task4.py) |
 
 
 ## Projects

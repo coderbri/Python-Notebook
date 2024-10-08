@@ -13,8 +13,8 @@
 
 | Day | Section | Level |
 | :-: | :------ | ----: |
-| D01 | [Managing Data with Python Variables](./Beginner_Python/D01-Mainpulating_Data_with_Python_Variables/) | Beginner |
-| D02 | Data Types and String Manipulation | Beginner |
+| D01 | [Managing Data with Python Variables](./Beginner_Python/D01-Managing_Data_with_Python_Variables/) | Beginner |
+| D02 | [Data Types and String Manipulation](./Beginner_Python/D02-Data_Types_and_String_Manipulation/) | Beginner |
 | D03 | Control Flow and Logical Operators | Beginner |
 | D04 | Randomization and Python Lists | Beginner |
 | D05 | ... | Beginner |
