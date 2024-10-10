@@ -15,7 +15,7 @@
 | :-: | :------ | ----: |
 | D01 | [Managing Data with Python Variables](./Beginner_Python/D01-Managing_Data_with_Python_Variables/) | Beginner |
 | D02 | [Data Types and String Manipulation](./Beginner_Python/D02-Data_Types_and_String_Manipulation/) | Beginner |
-| D03 | Control Flow and Logical Operators | Beginner |
+| D03 | [Control Flow and Logical Operators](./Beginner_Python/D03-Control_Flow_and_Logical_Operators/) | Beginner |
 | D04 | Randomization and Python Lists | Beginner |
 | D05 | ... | Beginner |
 | D06 | ... | Beginner |
@@ -36,7 +36,8 @@
 | N˚ | Concept | Level |
 | :- | :------ | ----: |
 | 01 | [Band Name Generator](https://github.com/coderbri/01_band_name_generator.git) | Beginner |
-| 02 | Tip Calculator | Beginner |
+| 02 | [Tip Calculator](https://github.com/coderbri/02_tip_calculator.git) | Beginner |
+| 03 | [Treasure Island](#) | Beginner |
 
 Course Duration: 2024.10.04 - present
 
