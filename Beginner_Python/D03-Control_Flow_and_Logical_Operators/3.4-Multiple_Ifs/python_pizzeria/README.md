@@ -1,14 +1,64 @@
 # 3.4.5 Python Pizzeria
 
-<!-- TODO: project description -->
-based on a user's order, work out their final bill. use the `input()` function to get a user's preferences and then add up the otal for their order and tell them how much they have to pay.
+## Project Description
+This is a terminal-based pizza ordering game where users can customize their pizza and get a final bill based on their selections. The program prompts the user to choose a pizza size, add pepperoni, and decide if they want extra cheese. It then calculates the total cost of the pizza based on these choices.
 
-- Small pizza (S): $15
-- Medium pizza (M): $20
-- Large pizza (M): $25
+### Pricing:
+- **Small pizza (S)**: $15
+- **Medium pizza (M)**: $20
+- **Large pizza (L)**: $25
 
-- Add pepperoni for small pizza (Y or N): +$2
-- Add pepperoni for medium pizza (Y or N): +$3
-- Add extra cheese for any size pizza (Y or N): +$1
+### Toppings:
+- **Pepperoni**:
+  - Small pizza: +$2
+  - Medium or Large pizza: +$3
+- **Extra Cheese (any size)**: +$1
 
-<!-- TODO: include how to run instructions -->
+## How to Run the Project
+
+1. Clone the repository or download the project files.
+2. Ensure both `main.py` and `pizza_menu.py` are in the same directory.
+3. Open a terminal in the project directory.
+4. Run the project using the following command:
+   ```bash
+   python main.py
+   ```
+5. Follow the prompts to customize your pizza.
+
+## Example
+
+```
+Welcome to Python Pizza Deliveries!
++--------------------+
+|   Python Pizzeria   |
++--------------------+
+|    Size    |  Price |
++------------+--------+
+| Small (S)  |   $15  |
+| Medium (M) |   $20  |
+| Large (L)  |   $25  |
++------------+--------+
+
++---------------------+
+|      Toppings       |
++---------------------+
+|   Pepperoni         |
++------------+--------+
+| Small (S)  |   +$2  |
+| Med/Large  |   +$3  |
++------------+--------+
+|   Cheese            |
++------------+--------+
+| Any Size   |   +$1  |
++------------+--------+
+
+What size pizza do you want? S, M, or L: M
+Do you want pepperoni on your pizza? Y or N: Y
+Do you want extra cheese? Y or N: N
+Your final bill is $23.
+```
+
+---
+<section align="center">
+  <code>coderBri © 2024</code>
+</section>
