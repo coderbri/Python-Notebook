@@ -37,7 +37,8 @@
 | :- | :------ | ----: |
 | 01 | [Band Name Generator](https://github.com/coderbri/01_band_name_generator.git) | Beginner |
 | 02 | [Tip Calculator](https://github.com/coderbri/02_tip_calculator.git) | Beginner |
-| 03 | [Treasure Island](#) | Beginner |
+| 03 | [Treasure Island](https://github.com/coderbri/03_treasure_island.git) | Beginner |
+| 04 | Rock, Paper, Scissors | Beginner |
 
 Course Duration: 2024.10.04 - present
 

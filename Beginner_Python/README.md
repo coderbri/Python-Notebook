@@ -33,13 +33,23 @@
 | 3.4 | [Multiple If Statements in Succession](./D03-Control_Flow_and_Logical_Operators/3.4-Multiple_Ifs/task4.py) |
 | 3.5 | [Logical Operators](./D03-Control_Flow_and_Logical_Operators/3.5-Logical_Operators/task5.py) |
 
+### D04 - Randomization and Lists
+| N˚ | Concept |
+| :- | :------ |
+| 4.1 | Random Module |
+| 4.2 | Understanding the Offset and Appending Items to Lists |
+| 4.3 | `IndexError`s and Working with Nested Lists |
+
+
+
 ## Projects
 
 | N˚ | Concept |
 | :- | :------ |
 | 01 | [Band Name Generator](https://github.com/coderbri/01_band_name_generator.git) |
 | 02 | [Tip Calculator](https://github.com/coderbri/02_tip_calculator.git) |
-| 03 | [Treasure Island](#) |
+| 03 | [Treasure Island](https://github.com/coderbri/03_treasure_island.git) |
+| 04 | Rock, Paper, Scissors |
 
 <!-- 
 
