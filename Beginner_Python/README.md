@@ -36,9 +36,9 @@
 ### D04 - Randomization and Lists
 | N˚ | Concept |
 | :- | :------ |
-| 4.1 | Random Module |
-| 4.2 | Understanding the Offset and Appending Items to Lists |
-| 4.3 | `IndexError`s and Working with Nested Lists |
+| 4.1 | [Random Module](./D04-Randomization_and_Lists/4.1-Random_Module/task1.py) |
+| 4.2 | [Understanding the Offset and Appending Items to Lists](./D04-Randomization_and_Lists/4.2-Lists/task2.py) |
+| 4.3 | [`IndexError` and Working with Nested Lists](./D04-Randomization_and_Lists/4.3-IndexError_and_Nested_Lists/task3.py) |
 
 
 
@@ -49,7 +49,8 @@
 | 01 | [Band Name Generator](https://github.com/coderbri/01_band_name_generator.git) |
 | 02 | [Tip Calculator](https://github.com/coderbri/02_tip_calculator.git) |
 | 03 | [Treasure Island](https://github.com/coderbri/03_treasure_island.git) |
-| 04 | Rock, Paper, Scissors |
+| 04 | [Rock, Paper, Scissors](https://github.com/coderbri/04_rock_paper_scissors.git)|
+| 05 | Password Generator |
 
 <!-- 
 
