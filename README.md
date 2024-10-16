@@ -17,7 +17,7 @@
 | D02 | [Data Types and String Manipulation](./Beginner_Python/D02-Data_Types_and_String_Manipulation/) | Beginner |
 | D03 | [Control Flow and Logical Operators](./Beginner_Python/D03-Control_Flow_and_Logical_Operators/) | Beginner |
 | D04 | [Randomization and Python Lists](./Beginner_Python/D04-Randomization_and_Lists/) | Beginner |
-| D05 | Python Loops | Beginner |
+| D05 | [Python Loops](./Beginner_Python/D05-Loops/) | Beginner |
 | D06 | Python Functions & Karel | Beginner |
 | D07 | Hangman | Beginner |
 | D08 | Function Parameters & Caesar Cipher | Beginner |

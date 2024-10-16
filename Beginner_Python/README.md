@@ -33,12 +33,22 @@
 | 3.4 | [Multiple If Statements in Succession](./D03-Control_Flow_and_Logical_Operators/3.4-Multiple_Ifs/task4.py) |
 | 3.5 | [Logical Operators](./D03-Control_Flow_and_Logical_Operators/3.5-Logical_Operators/task5.py) |
 
+
 ### D04 - Randomization and Lists
+
 | N˚ | Concept |
 | :- | :------ |
 | 4.1 | [Random Module](./D04-Randomization_and_Lists/4.1-Random_Module/task1.py) |
 | 4.2 | [Understanding the Offset and Appending Items to Lists](./D04-Randomization_and_Lists/4.2-Lists/task2.py) |
 | 4.3 | [`IndexError` and Working with Nested Lists](./D04-Randomization_and_Lists/4.3-IndexError_and_Nested_Lists/task3.py) |
+
+### D05 - Python Loops
+
+| N˚ | Concept |
+| :- | :------ |
+| 5.1 | [Using For Loops with Python Lists](./D05-Loops/5.1-Looping_Python_Lists/task1.py) |
+| 5.2 | [The `sum()` Function](./D05-Loops/5.2-Sum_Function/task2.py) |
+| 5.3 | [5.3 For Loops and the `range()` Function](./D05-Loops/5.3-For_Loops_Range_Function/task3.py) |
 
 
 
