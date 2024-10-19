@@ -50,6 +50,15 @@
 | 5.2 | [The `sum()` Function](./D05-Loops/5.2-Sum_Function/task2.py) |
 | 5.3 | [5.3 For Loops and the `range()` Function](./D05-Loops/5.3-For_Loops_Range_Function/task3.py) |
 
+### D06 - Python Functions & Karels
+
+| N˚ | Concept |
+| :- | :------ |
+| 6.1 | Defining and Calling Python Functions |
+<!-- | 6.2 | The Hurdles | -->
+<!-- | 6.3 | Indentation in Python | -->
+<!-- | 6.4 | While Loops | -->
+<!-- | 6.5 | ... | -->
 
 
 ## Projects
@@ -60,7 +69,10 @@
 | 02 | [Tip Calculator](https://github.com/coderbri/02_tip_calculator.git) |
 | 03 | [Treasure Island](https://github.com/coderbri/03_treasure_island.git) |
 | 04 | [Rock, Paper, Scissors](https://github.com/coderbri/04_rock_paper_scissors.git)|
-| 05 | Password Generator |
+| 05 | [Password Generator](https://github.com/coderbri/05_password_generator.git) |
+| 06 | Escaping the Maze |
+| 07 | ... |
+| 08 | ... |
 
 <!-- 
 

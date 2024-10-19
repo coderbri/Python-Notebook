@@ -39,7 +39,8 @@
 | 02 | [Tip Calculator](https://github.com/coderbri/02_tip_calculator.git) | Beginner |
 | 03 | [Treasure Island](https://github.com/coderbri/03_treasure_island.git) | Beginner |
 | 04 | [Rock, Paper, Scissors](https://github.com/coderbri/04_rock_paper_scissors.git) | Beginner |
-| 05 | Password Generator | Beginner |
+| 05 | [Password Generator](https://github.com/coderbri/05_password_generator.git) | Beginner |
+| 06 | ... | Beginner |
 
 Course Duration: 2024.10.04 - present
 
