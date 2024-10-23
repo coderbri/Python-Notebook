@@ -54,11 +54,8 @@
 
 | N˚ | Concept |
 | :- | :------ |
-| 6.1 | Defining and Calling Python Functions |
-<!-- | 6.2 | The Hurdles | -->
-<!-- | 6.3 | Indentation in Python | -->
-<!-- | 6.4 | While Loops | -->
-<!-- | 6.5 | ... | -->
+| 6.1 | [Defining and Calling Python Functions](./D06-Python_Functions_and_Karels/6.1-Python_Functions/task1.py) |
+| 6.2 | [Indentation and While Loops](./D06-Python_Functions_and_Karels/6.2-Indentation_and_While_Loops/task2.py) |
 
 
 ## Projects
@@ -70,11 +67,11 @@
 | 03 | [Treasure Island](https://github.com/coderbri/03_treasure_island.git) |
 | 04 | [Rock, Paper, Scissors](https://github.com/coderbri/04_rock_paper_scissors.git)|
 | 05 | [Password Generator](https://github.com/coderbri/05_password_generator.git) |
-| 06 | Escaping the Maze |
-| 07 | ... |
+| 06 | [Escaping the Maze](./D06-Python_Functions_and_Karels/Reeborgs-World/maze.txt) |
+| 07 | Hangman |
 | 08 | ... |
 
-<!-- 
 
+<!-- 
 | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 | D11 | D12 | D14 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | -->
