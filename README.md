@@ -41,7 +41,7 @@
 | 04 | [Rock, Paper, Scissors](https://github.com/coderbri/04_rock_paper_scissors.git) | Beginner |
 | 05 | [Password Generator](https://github.com/coderbri/05_password_generator.git) | Beginner |
 | 06 | [Maze Escape](./Beginner_Python/D06-Python_Functions_and_Karels/Reeborgs-World/maze.txt) | Beginner |
-| 07 | Hangman | Beginner |
+| 07 | [Hangman](https://github.com/coderbri/07_hangman) | Beginner |
 | 08 | ... | Beginner |
 
 Course Duration: 2024.10.04 - present

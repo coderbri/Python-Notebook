@@ -57,6 +57,13 @@
 | 6.1 | [Defining and Calling Python Functions](./D06-Python_Functions_and_Karels/6.1-Python_Functions/task1.py) |
 | 6.2 | [Indentation and While Loops](./D06-Python_Functions_and_Karels/6.2-Indentation_and_While_Loops/task2.py) |
 
+### D07 - Building Hangman
+
+| N˚ | Concept |
+| :- | :------ |
+| 7.1 | ... |
+| 7.2 | ... |
+
 
 ## Projects
 
@@ -68,7 +75,7 @@
 | 04 | [Rock, Paper, Scissors](https://github.com/coderbri/04_rock_paper_scissors.git)|
 | 05 | [Password Generator](https://github.com/coderbri/05_password_generator.git) |
 | 06 | [Escaping the Maze](./D06-Python_Functions_and_Karels/Reeborgs-World/maze.txt) |
-| 07 | Hangman |
+| 07 | [Hangman](https://github.com/coderbri/07_hangman) |
 | 08 | ... |
 
 
