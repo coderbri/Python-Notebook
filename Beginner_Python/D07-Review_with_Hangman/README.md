@@ -1,59 +1,33 @@
 # Putting Everything into Practice by Building Hangman
 
-At this point, significant progress has been made in Python fundamentals by applying key concepts such as `if`/`else` statements, `for` loops, and string manipulation. The Hangman game development has been initiated, with key tasks implemented. 
+This project applies essential Python concepts, such as `if`/`else` statements, `for` loops, lists, string manipulation, and module importing, by building an interactive Hangman game. 
 
 ## Step 1 - Picking a Random Word and Checking Answers
 
-- The `random` module is used to randomly select a word from a predefined list, demonstrating how to work with external libraries and lists.
-- Input handling is practiced, where user guesses are converted to lowercase, emphasizing string manipulation techniques.
-- A loop structure is employed to check whether the guessed letter matches any letters in the chosen word, outputting "Right" or "Wrong" for each character comparison. 
-
+- The `random` module is used to randomly select a word from a predefined list of words imported from `hangman_words.py`.
+- User input is handled with `input()`, and the guessed letter is converted to lowercase for consistency.
+- A loop is implemented to check if the guessed letter matches any letter in the chosen word, printing "Right" or "Wrong" accordingly.
 
 ## Step 2 - Replacing Blanks with Guesses
 
-TODO-1
-- Create an empty String called placeholder.
-- For each letter in the chosen_word, add a _ to placeholder. So if the chosen_word was "apple", placeholder should be _ _ _ _ _ with 5 "_" representing each letter to guess.
-
-TODO-2
-- Create an empty string called "display".
-- Loop through each letter in the chosen_word.
-- If the letter at that position matches guess then reveal that letter in the display at that position. e.g. If the user guessed "p" and the chosen word was "apple", then display should be _ p p _ _.
-- Print display and you should see the guessed letter in the correct position.
-- But every letter that is not a match is represented with a "_".
-
+- The game sets up a `placeholder` string filled with underscores (`_`) to represent each letter in the word to be guessed.
+- The `display` string updates based on the user's guesses, revealing correctly guessed letters in their respective positions and leaving underscores for letters that are yet to be guessed. For instance, guessing "p" in "apple" updates `display` to `_ p p _ _`.
+- This allows the game to give real-time feedback on each guess by showing which letters have been correctly guessed.
 
 ## Step 3 - Checking if the Player has Won
 
-TODO-1
-- Use a while loop to let the user guess again. The loop should only stop once the user has guessed all the letters in the chosen_word.
-- At that point display has no more blanks ("_"). Then you can tell the user they've won.
-
-TODO-2
-- Update the for loop so that previous guesses are added to the display String.
-- At the moment, when the user makes a new guess, the previous guess gets replaced by a "_". We need to fix that by updating the for loop.
-
+- A `while` loop allows the player to continue guessing until the chosen word is fully revealed or the player runs out of lives.
+- The game checks if `display` has any remaining blanks (`_`). If no blanks are left, it declares a win.
+- The loop updates `display` to retain previously guessed letters, ensuring that each correct guess is saved and shown throughout the game.
 
 ## Step 4 - Keeping Track of the Player’s Lives
 
-TODO-1:
-- Create a variable called lives to keep track of the number of lives left.
-- Set lives to equal 6.
-
-TODO-2:
-- If guess is not a letter in the chosen_word, Then reduce lives by 1.
-- If lives goes down to 0 then the game should end, and it should print "You lose."
-
-TODO-3:
-- print the ASCII art from the list stages that corresponds to the current number of lives the user has remaining.
+- A `lives` variable, initially set to 6, tracks the player’s remaining attempts.
+- If the player guesses a letter that is not in the word, `lives` decreases by 1, and the player is notified of the incorrect guess and the remaining lives.
+- The game ends when `lives` reaches 0, at which point the player loses, and the correct word is revealed.
+- The game uses ASCII art from `hangman_art.py` to visually display the player’s progress and remaining attempts.
 
 ## Step 5 - Improving the User Experience
 
-TODO-1:
-- Update the word list to use the word_list from hangman_words.py
-
-TODO-2:
-- Update the code to use the stages from the file hangman_art.py
-
-TODO-3:
-- Import the logo from hangman_art.py and print it at the start of the game.
+- The word list and ASCII art are managed in external files (`hangman_words.py` and `hangman_art.py`), which the main game imports for cleaner code organization.
+- The logo from `hangman_art.py` is displayed at the start to enhance the game’s presentation, creating a more immersive user experience.
