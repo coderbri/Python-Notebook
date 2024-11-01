@@ -19,13 +19,13 @@
 | D04 | [Randomization and Python Lists](./Beginner_Python/D04-Randomization_and_Lists/) | Beginner |
 | D05 | [Python Loops](./Beginner_Python/D05-Loops/) | Beginner |
 | D06 | [Python Functions & Karel](./Beginner_Python/D06-Python_Functions_and_Karels/) | Beginner |
-| D07 | Hangman | Beginner |
-| D08 | Function Parameters & Caesar Cipher | Beginner |
-| D09 | Dictionaries, Nesting and the Secret Auction | Beginner |
+| D07 | [Hangman](./Beginner_Python/D07-Review_with_Hangman/) | Beginner |
+| D08 | [Function Parameters](./Beginner_Python/D08-Function_Parameters/) | Beginner |
+| D09 | Dictionaries and Nesting | Beginner |
 | D10 | Function with Outputs | Beginner |
-| D11 | ... | Beginner |
-| D12 | ... | Beginner |
-| D13 | ... | Beginner |
+| D11 | The Blackjack Capstone Project | Beginner |
+| D12 | Scope | Beginner |
+| D13 | Debugging: How to Find and Fiz Errors in your Code | Beginner |
 | D14 | ... | Beginner |
 
 
@@ -42,7 +42,13 @@
 | 05 | [Password Generator](https://github.com/coderbri/05_password_generator.git) | Beginner |
 | 06 | [Maze Escape](./Beginner_Python/D06-Python_Functions_and_Karels/Reeborgs-World/maze.txt) | Beginner |
 | 07 | [Hangman](https://github.com/coderbri/07_hangman) | Beginner |
-| 08 | ... | Beginner |
+| 08 | [Caesar Cipher](https://github.com/coderbri/08_caesar_cipher.git) | Beginner |
+| 09 | Secret Auction | Beginner |
+| 10 | Calculator | Beginner |
+| 11 | Blackjack Capstone | Beginner |
+| 12 | Number Guessing Game | Beginner |
+| 13 | Debugging Beginner Projects | Beginner |
+| 14 | Higher and Lower Game | Beginner |
 
 Course Duration: 2024.10.04 - present
 

@@ -61,8 +61,26 @@
 
 | N˚ | Concept |
 | :- | :------ |
-| 7.1 | ... |
-| 7.2 | ... |
+| 7.1 | [Random Choice and Check](./D07-Review_with_Hangman/1-Random_Choice_and_Check/task1.py) |
+| 7.2 | [Replacing Blanks](./D07-Review_with_Hangman/2-Replacing_Blanks/task2.py) |
+| 7.3 | [Check Win Condition](./D07-Review_with_Hangman/3-Check_Win_Condition/task3.py) |
+| 7.4 | [Track Lives](./D07-Review_with_Hangman/4-Track_Lives/task4.py) |
+| 7.5 | [Debugging](./D07-Review_with_Hangman/5-Debugging/task5.py) |
+
+
+### D08 - Function Parameters & Caeser Cipher
+
+| N˚ | Concept |
+| :- | :------ |
+| 8.1 | [Functions with Inputs](./D08-Function_Parameters/8.1-Functions_with_Inputs/task1.py) |
+| 8.2 | [Positional vs. Keyword Arguments](./D08-Function_Parameters/8.2-Positional_vs_Keyword_Arguments/task2.py) |
+
+### D09 - Dictionaries, Nesting & the Secret Auction
+
+| N˚ | Concept |
+| :- | :------ |
+| 9.1 | The Python Dictionary: Deep Dive |
+| 9.2 | Nesting Lists and Dictionaries |
 
 
 ## Projects
@@ -76,7 +94,8 @@
 | 05 | [Password Generator](https://github.com/coderbri/05_password_generator.git) |
 | 06 | [Escaping the Maze](./D06-Python_Functions_and_Karels/Reeborgs-World/maze.txt) |
 | 07 | [Hangman](https://github.com/coderbri/07_hangman) |
-| 08 | ... |
+| 08 | Caeser Cipher |
+| 09 | ... |
 
 
 <!-- 
