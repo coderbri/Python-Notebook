@@ -79,8 +79,8 @@
 
 | N˚ | Concept |
 | :- | :------ |
-| 9.1 | The Python Dictionary: Deep Dive |
-| 9.2 | Nesting Lists and Dictionaries |
+| 9.1 | [The Python Dictionary: Deep Dive](./D09-Dictionaries_and_Nesting/9.1-Python_Dictionaries/task1.py) |
+| 9.2 | [Nesting Lists and Dictionaries](./D09-Dictionaries_and_Nesting/9.2-Nested_Lists_and_Dictionaries/task2.py) |
 
 
 ## Projects
@@ -94,8 +94,9 @@
 | 05 | [Password Generator](https://github.com/coderbri/05_password_generator.git) |
 | 06 | [Escaping the Maze](./D06-Python_Functions_and_Karels/Reeborgs-World/maze.txt) |
 | 07 | [Hangman](https://github.com/coderbri/07_hangman) |
-| 08 | Caeser Cipher |
-| 09 | ... |
+| 08 | [Caeser Cipher](https://github.com/coderbri/08_caesar_cipher.git) |
+| 09 | Secret Auction |
+| 10 | ... |
 
 
 <!-- 
