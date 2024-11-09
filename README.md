@@ -22,7 +22,7 @@
 | D07 | [Hangman](./Beginner_Python/D07-Review_with_Hangman/) | Beginner |
 | D08 | [Function Parameters](./Beginner_Python/D08-Function_Parameters/) | Beginner |
 | D09 | [Dictionaries and Nesting](./Beginner_Python/D09-Dictionaries_and_Nesting/) | Beginner |
-| D10 | Function with Outputs | Beginner |
+| D10 | [Function with Outputs](./Beginner_Python/D10-Functions_with_Outputs/) | Beginner |
 | D11 | The Blackjack Capstone Project | Beginner |
 | D12 | Scope | Beginner |
 | D13 | Debugging: How to Find and Fiz Errors in your Code | Beginner |
@@ -43,8 +43,8 @@
 | 06 | [Maze Escape](./Beginner_Python/D06-Python_Functions_and_Karels/Reeborgs-World/maze.txt) | Beginner |
 | 07 | [Hangman](https://github.com/coderbri/07_hangman) | Beginner |
 | 08 | [Caesar Cipher](https://github.com/coderbri/08_caesar_cipher.git) | Beginner |
-| 09 | [Secret Auction](#) | Beginner |
-| 10 | Calculator | Beginner |
+| 09 | [Secret Auction](https://github.com/coderbri/09_secret_auction.git) | Beginner |
+| 10 | [Calculator](#) | Beginner |
 | 11 | Blackjack Capstone | Beginner |
 | 12 | Number Guessing Game | Beginner |
 | 13 | Debugging Beginner Projects | Beginner |

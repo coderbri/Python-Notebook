@@ -83,6 +83,14 @@
 | 9.2 | [Nesting Lists and Dictionaries](./D09-Dictionaries_and_Nesting/9.2-Nested_Lists_and_Dictionaries/task2.py) |
 
 
+### D10 - Functions with Outputs
+
+| N˚ | Concept |
+| :- | :------ |
+| 10.1 | [Function with Outputs](./D10-Functions_with_Outputs/10.1-Function_with_Outputs/task1.py) |
+| 10.2 | [Multiple Return Values](./D10-Functions_with_Outputs/10.2-Multiple_Return_Values/task2.py) |
+| 10.3 | [Docstrings](./D10-Functions_with_Outputs/10.3-Docstrings/task3.py) |
+
 ## Projects
 
 | N˚ | Concept |
@@ -95,8 +103,12 @@
 | 06 | [Escaping the Maze](./D06-Python_Functions_and_Karels/Reeborgs-World/maze.txt) |
 | 07 | [Hangman](https://github.com/coderbri/07_hangman) |
 | 08 | [Caeser Cipher](https://github.com/coderbri/08_caesar_cipher.git) |
-| 09 | Secret Auction |
-| 10 | ... |
+| 09 | [Secret Auction](https://github.com/coderbri/09_secret_auction.git) |
+| 10 | [Calculator](#) |
+| 11 | Blackjack Capstone | Beginner |
+| 12 | Number Guessing Game | Beginner |
+| 13 | Debugging Beginner Projects | Beginner |
+| 14 | Higher and Lower Game | Beginner |
 
 
 <!-- 
