@@ -44,7 +44,7 @@
 | 07 | [Hangman](https://github.com/coderbri/07_hangman) | Beginner |
 | 08 | [Caesar Cipher](https://github.com/coderbri/08_caesar_cipher.git) | Beginner |
 | 09 | [Secret Auction](https://github.com/coderbri/09_secret_auction.git) | Beginner |
-| 10 | [Calculator](#) | Beginner |
+| 10 | [Calculator](https://github.com/coderbri/10_calculator.git) | Beginner |
 | 11 | Blackjack Capstone | Beginner |
 | 12 | Number Guessing Game | Beginner |
 | 13 | Debugging Beginner Projects | Beginner |
