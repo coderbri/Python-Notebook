@@ -91,6 +91,25 @@
 | 10.2 | [Multiple Return Values](./D10-Functions_with_Outputs/10.2-Multiple_Return_Values/task2.py) |
 | 10.3 | [Docstrings](./D10-Functions_with_Outputs/10.3-Docstrings/task3.py) |
 
+
+### D11 - Blackjack Capstone Project
+
+| N˚ | Concept |
+| :- | :------ |
+| 11.1 | [Dealing Cards](./D11-Blackjack_Capstone_Project/11.1-Dealing_Cards/task1.py) |
+| 11.2 | [Calculating Score](./D11-Blackjack_Capstone_Project/11.2-Calculating_Score/task2.py) |
+| 11.3 | [Test Print Decks and Scores](./D11-Blackjack_Capstone_Project/11.3-Test_Print_Decks_and_Scores/task3.py) |
+| 11.4 | [Blackjack Logic](./D11-Blackjack_Capstone_Project/11.4-Blackjack_Logic/task4.py) |
+| 11.5 | [Comparing Scores and Play Game](./D11-Blackjack_Capstone_Project/11.5-Comparing_Scores_and_Play_Game/task5.py) |
+
+
+<!-- ### D12 - Scope
+
+| N˚ | Concept |
+| :- | :------ |
+| 12.1 | [Namespaces: Local vs Global Space](./D12-Scope/12.1-Namespaces_and_Scope/task1.py) |
+| 12.2 | ... | -->
+
 ## Projects
 
 | N˚ | Concept |
@@ -105,7 +124,7 @@
 | 08 | [Caeser Cipher](https://github.com/coderbri/08_caesar_cipher.git) |
 | 09 | [Secret Auction](https://github.com/coderbri/09_secret_auction.git) |
 | 10 | [Calculator](https://github.com/coderbri/10_calculator.git) |
-| 11 | Blackjack Capstone | Beginner |
+| 11 | [Blackjack Capstone Project](https://github.com/coderbri/11_blackjack.git) | Beginner |
 | 12 | Number Guessing Game | Beginner |
 | 13 | Debugging Beginner Projects | Beginner |
 | 14 | Higher and Lower Game | Beginner |

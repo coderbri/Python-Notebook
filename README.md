@@ -23,7 +23,7 @@
 | D08 | [Function Parameters](./Beginner_Python/D08-Function_Parameters/) | Beginner |
 | D09 | [Dictionaries and Nesting](./Beginner_Python/D09-Dictionaries_and_Nesting/) | Beginner |
 | D10 | [Function with Outputs](./Beginner_Python/D10-Functions_with_Outputs/) | Beginner |
-| D11 | The Blackjack Capstone Project | Beginner |
+| D11 | [The Blackjack Capstone Project](./Beginner_Python/D11-Blackjack_Capstone_Project/) | Beginner |
 | D12 | Scope | Beginner |
 | D13 | Debugging: How to Find and Fiz Errors in your Code | Beginner |
 | D14 | ... | Beginner |
@@ -45,7 +45,7 @@
 | 08 | [Caesar Cipher](https://github.com/coderbri/08_caesar_cipher.git) | Beginner |
 | 09 | [Secret Auction](https://github.com/coderbri/09_secret_auction.git) | Beginner |
 | 10 | [Calculator](https://github.com/coderbri/10_calculator.git) | Beginner |
-| 11 | Blackjack Capstone | Beginner |
+| 11 | [Blackjack Capstone Project](https://github.com/coderbri/11_blackjack.git) | Beginner |
 | 12 | Number Guessing Game | Beginner |
 | 13 | Debugging Beginner Projects | Beginner |
 | 14 | Higher and Lower Game | Beginner |
