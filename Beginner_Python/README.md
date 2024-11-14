@@ -103,12 +103,14 @@
 | 11.5 | [Comparing Scores and Play Game](./D11-Blackjack_Capstone_Project/11.5-Comparing_Scores_and_Play_Game/task5.py) |
 
 
-<!-- ### D12 - Scope
+### D12 - Scope
 
 | N˚ | Concept |
 | :- | :------ |
 | 12.1 | [Namespaces: Local vs Global Space](./D12-Scope/12.1-Namespaces_and_Scope/task1.py) |
-| 12.2 | ... | -->
+| 12.2 | [Does Python have block scope?](./D12-Scope/12.2-Block_Scope/task2.py) |
+| 12.3 | [How to Modify a Global Variable](./D12-Scope/12.3-Global_Variables/task3.py) |
+| 12.4 | [Python Constants and Global Scope](./D12-Scope/12.4-Global_Constants/task4.py) |
 
 ## Projects
 
@@ -125,7 +127,7 @@
 | 09 | [Secret Auction](https://github.com/coderbri/09_secret_auction.git) |
 | 10 | [Calculator](https://github.com/coderbri/10_calculator.git) |
 | 11 | [Blackjack Capstone Project](https://github.com/coderbri/11_blackjack.git) | Beginner |
-| 12 | Number Guessing Game | Beginner |
+| 12 | [Number Guessing Game](#) | Beginner |
 | 13 | Debugging Beginner Projects | Beginner |
 | 14 | Higher and Lower Game | Beginner |
 
