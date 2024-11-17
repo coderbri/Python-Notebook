@@ -46,8 +46,8 @@
 | 09 | [Secret Auction](https://github.com/coderbri/09_secret_auction.git) | Beginner |
 | 10 | [Calculator](https://github.com/coderbri/10_calculator.git) | Beginner |
 | 11 | [Blackjack Capstone Project](https://github.com/coderbri/11_blackjack.git) | Beginner |
-| 12 | [Number Guessing Game](#) | Beginner |
-| 13 | Debugging Beginner Projects | Beginner |
+| 12 | [Number Guessing Game](https://github.com/coderbri/12_great_number_game.git) | Beginner |
+| 13 | [Debugging Beginner Projects](./Beginner_Python/D13-Debugging/Debuggging_Exercises/) | Beginner |
 | 14 | Higher and Lower Game | Beginner |
 
 Course Duration: 2024.10.04 - present

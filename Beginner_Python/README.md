@@ -112,6 +112,18 @@
 | 12.3 | [How to Modify a Global Variable](./D12-Scope/12.3-Global_Variables/task3.py) |
 | 12.4 | [Python Constants and Global Scope](./D12-Scope/12.4-Global_Constants/task4.py) |
 
+### D13 - Debugging: How to Find and Fix Errors in your Code
+
+| N˚ | Concept |
+| :- | :------ |
+| 13.1 | [Describe a Problem](./D13-Debugging/13.1-Describe_the_Problem/task1.py) |
+| 13.2 | [Reproduce a Bug](./D13-Debugging/13.2-Reproduce_the_Bug/task2.py) |
+| 13.3 | [Play Computer and Evaluate Each Line](./D13-Debugging/13.3-Play_Computer/task3.py) |
+| 13.4 | [Fixing Errors and Watching for Red Underlines](./D13-Debugging/13.4-Fix_the_Errors/task4.py) |
+| 13.5 | [Squash bugs with `print()` Statement](./D13-Debugging/13.4-Fix_the_Errors/task4.py) |
+| 13.6 | [Bringing out the BIG Gun: Using a Debugger](./D13-Debugging/13.6-Using_a_Debugger/task6.py) |
+
+
 ## Projects
 
 | N˚ | Concept |
@@ -126,10 +138,10 @@
 | 08 | [Caeser Cipher](https://github.com/coderbri/08_caesar_cipher.git) |
 | 09 | [Secret Auction](https://github.com/coderbri/09_secret_auction.git) |
 | 10 | [Calculator](https://github.com/coderbri/10_calculator.git) |
-| 11 | [Blackjack Capstone Project](https://github.com/coderbri/11_blackjack.git) | Beginner |
-| 12 | [Number Guessing Game](#) | Beginner |
-| 13 | Debugging Beginner Projects | Beginner |
-| 14 | Higher and Lower Game | Beginner |
+| 11 | [Blackjack Capstone Project](https://github.com/coderbri/11_blackjack.git) |
+| 12 | [Number Guessing Game](https://github.com/coderbri/12_great_number_game.git) |
+| 13 | [Debugging Beginner Projects](./D13-Debugging/Debuggging_Exercises/) |
+| 14 | Higher and Lower Game |
 
 
 <!-- 
