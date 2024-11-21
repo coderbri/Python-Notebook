@@ -25,8 +25,8 @@
 | D10 | [Function with Outputs](./Beginner_Python/D10-Functions_with_Outputs/) | Beginner |
 | D11 | [The Blackjack Capstone Project](./Beginner_Python/D11-Blackjack_Capstone_Project/) | Beginner |
 | D12 | [Scope](./Beginner_Python/D12-Scope/) | Beginner | 
-| D13 | Debugging: How to Find and Fix Errors in your Code | Beginner |
-| D14 | ... | Beginner |
+| D13 | [Debugging: How to Find and Fix Errors in your Code](./Beginner_Python/D13-Debugging/) | Beginner |
+| D14 | [Higher and Lower Game Project](./Beginner_Python/D14-Higher_Lower_Game/) | Beginner |
 
 
 <!-- ### Intermediate Concepts -->
@@ -48,7 +48,7 @@
 | 11 | [Blackjack Capstone Project](https://github.com/coderbri/11_blackjack.git) | Beginner |
 | 12 | [Number Guessing Game](https://github.com/coderbri/12_great_number_game.git) | Beginner |
 | 13 | [Debugging Beginner Projects](./Beginner_Python/D13-Debugging/Debuggging_Exercises/) | Beginner |
-| 14 | Higher and Lower Game | Beginner |
+| 14 | [Higher Lower Game](https://github.com/coderbri/14_higher_lower_game.git) | Beginner |
 
 Course Duration: 2024.10.04 - present
 

@@ -123,6 +123,13 @@
 | 13.5 | [Squash bugs with `print()` Statement](./D13-Debugging/13.4-Fix_the_Errors/task4.py) |
 | 13.6 | [Bringing out the BIG Gun: Using a Debugger](./D13-Debugging/13.6-Using_a_Debugger/task6.py) |
 
+### D14 - Higher Lower Game
+
+| N˚ | Concept |
+| :- | :------ |
+| 14.1 | [Planning the Project](./D14-Higher_Lower_Game/todo.md) |
+| 14.2 | [Building the Project](./D14-Higher_Lower_Game/main.py) |
+
 
 ## Projects
 
@@ -141,7 +148,7 @@
 | 11 | [Blackjack Capstone Project](https://github.com/coderbri/11_blackjack.git) |
 | 12 | [Number Guessing Game](https://github.com/coderbri/12_great_number_game.git) |
 | 13 | [Debugging Beginner Projects](./D13-Debugging/Debuggging_Exercises/) |
-| 14 | Higher and Lower Game |
+| 14 | [Higher and Lower Game](https://github.com/coderbri/14_higher_lower_game.git) |
 
 
 <!-- 
