@@ -2,6 +2,10 @@
 
 ## Concept Notes
 
+| [D1](#d01---managing-data-with-python-variables) | [D2](#d02---understanding-data-types) | [D3](#d03---control-flow--logical-operators) | [D4](#d04---randomization-and-lists) | [D5](#d05---python-loops) | [D6](#d06---python-functions--karels) | [D7](#d07---building-hangman) | [D8](#d08---function-parameters--caeser-cipher) | [D9](#d09---dictionaries-nesting--the-secret-auction) | [D10](#d10---functions-with-outputs) | [D11](#d11---blackjack-capstone-project) | [D12](#d12---scope) | [D14](#d14---higher-lower-game) |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+
+
 ### D01 - Managing Data with Python Variables
 
 | N˚ | Concept |
@@ -149,8 +153,3 @@
 | 12 | [Number Guessing Game](https://github.com/coderbri/12_great_number_game.git) |
 | 13 | [Debugging Beginner Projects](./D13-Debugging/Debuggging_Exercises/) |
 | 14 | [Higher and Lower Game](https://github.com/coderbri/14_higher_lower_game.git) |
-
-
-<!-- 
-| D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 | D11 | D12 | D14 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | -->

@@ -1,7 +1,7 @@
 # Python-Notebook
 
 
-| [Beginner](#beginner-concepts) | Intermediate | Intermediate+ | Advanced | Professional | Projects |
+| [Beginner](#beginner-concepts) | [Intermediate](#intermediate-concepts) | Intermediate+ | Advanced | Professional | Projects |
 | :------: | :----------: | :-----------: | :------: | :----------: | :------: |
 
 <!-- Based on Dr. Angela Yu's Python Pro Bootcamp. -->
@@ -29,7 +29,15 @@
 | D14 | [Higher and Lower Game Project](./Beginner_Python/D14-Higher_Lower_Game/) | Beginner |
 
 
-<!-- ### Intermediate Concepts -->
+### Intermediate Concepts
+
+| Day | Section | Level |
+| :-: | :------ | ----: |
+| D15 | Local Development Environment Setup | Intermediate |
+| D16 | [Object-Oriented Programming](./Intermediate_Python/D16-Python_OOP/) | Intermediate |
+| D17 | The Benefits of OOP | Intermediate |
+
+
 
 ## Projects
 
@@ -49,6 +57,9 @@
 | 12 | [Number Guessing Game](https://github.com/coderbri/12_great_number_game.git) | Beginner |
 | 13 | [Debugging Beginner Projects](./Beginner_Python/D13-Debugging/Debuggging_Exercises/) | Beginner |
 | 14 | [Higher Lower Game](https://github.com/coderbri/14_higher_lower_game.git) | Beginner |
+| 15 | [Coffee Machine](https://github.com/coderbri/15_coffee_machine.git) | Intermediate |
+| 16 | [Cofee Machine OOP](https://github.com/coderbri/16_coffee_machine_oop.git) | Intermediate |
+| 17 | Quiz | Intermediate |
 
 Course Duration: 2024.10.04 - present
 
