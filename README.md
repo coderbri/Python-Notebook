@@ -35,7 +35,8 @@
 | :-: | :------ | ----: |
 | D15 | Local Development Environment Setup | Intermediate |
 | D16 | [Object-Oriented Programming](./Intermediate_Python/D16-Python_OOP/) | Intermediate |
-| D17 | The Benefits of OOP | Intermediate |
+| D17 | [The Benefits of OOP](./Intermediate_Python/D17-Benefits_of_OOP/) | Intermediate |
+| D18 | ... | Intermediate |
 
 
 
@@ -59,7 +60,9 @@
 | 14 | [Higher Lower Game](https://github.com/coderbri/14_higher_lower_game.git) | Beginner |
 | 15 | [Coffee Machine](https://github.com/coderbri/15_coffee_machine.git) | Intermediate |
 | 16 | [Cofee Machine OOP](https://github.com/coderbri/16_coffee_machine_oop.git) | Intermediate |
-| 17 | Quiz | Intermediate |
+| 17 | [Quiz](https://github.com/coderbri/17_quiz_game.git) | Intermediate |
+| 18 | ... | Intermediate |
+| 19 | ... | Intermediate |
 
 Course Duration: 2024.10.04 - present
 
