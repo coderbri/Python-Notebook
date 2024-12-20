@@ -36,7 +36,11 @@
 | D15 | Local Development Environment Setup | Intermediate |
 | D16 | [Object-Oriented Programming](./Intermediate_Python/D16-Python_OOP/) | Intermediate |
 | D17 | [The Benefits of OOP](./Intermediate_Python/D17-Benefits_of_OOP/) | Intermediate |
-| D18 | ... | Intermediate |
+| D18 | [Turtle & the Graphical User Interface (GUI)](./Intermediate_Python/D18-Turtle_and_GUI/) | Intermediate |
+| D19 | Instances, State & Higher Order Functions | Intermediate |
+| D20 | ... | Intermediate |
+| D21 | ... | Intermediate |
+| D22 | ... | Intermediate |
 
 
 
@@ -61,8 +65,10 @@
 | 15 | [Coffee Machine](https://github.com/coderbri/15_coffee_machine.git) | Intermediate |
 | 16 | [Cofee Machine OOP](https://github.com/coderbri/16_coffee_machine_oop.git) | Intermediate |
 | 17 | [Quiz](https://github.com/coderbri/17_quiz_game.git) | Intermediate |
-| 18 | ... | Intermediate |
+| 18 | [The Hirst Painting Project](https://github.com/coderbri/18_hirst_painting_project.git) | Intermediate |
 | 19 | ... | Intermediate |
+| 20 | ... | Intermediate |
+| 21 | ... | Intermediate |
 
 Course Duration: 2024.10.04 - present
 

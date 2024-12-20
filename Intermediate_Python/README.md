@@ -19,6 +19,20 @@
 | 17.3 | [Adding Methods to a Class](./D17-Benefits_of_OOP/17.3-Adding_Methods_to_Class/task3.py) |
 | 17.4 | [Building the Quiz Game](./D17-Benefits_of_OOP/17.4-Building_the_Quiz/) |
 
+### D18 - Turtle & the Graphical User Interface (GUI)
+
+| N˚ | Concept |
+| :- | :------ |
+| **18.1** | **Understanding the Turtle Graphics and How to use the Documentation** |
+| 18.1.5 | [Turtle Challenge 1 - Draw a Square](./D18-Turtle_and_GUI/18.1-Turtle_Docs/18.1.5-Turtle_Draw_a_Square/challenge1.py) |
+| **18.2** | **Importing Modules, Installing Packages, and Working with Aliases** |
+| 18.2.1 | [Turtle Challenge 2 - Draw a Dashed Line](./D18-Turtle_and_GUI/18.2-Modules_Packages_Aliases/18.2.1-Turtle_Dashed_Line/challenge2.py) |
+| 18.2.2 | [Turtle Challenge 5 - Drawing a Square](./D18-Turtle_and_GUI/18.2-Modules_Packages_Aliases/18.2.2-Turtle_Multiple_Shapes/practice3.py) |
+| 18.2.2 | [Turtle Challenge 4 - Drawing Different Shapes](./D18-Turtle_and_GUI/18.2-Modules_Packages_Aliases/18.2.2-Turtle_Multiple_Shapes/challenge3.py) |
+| **18.3** | **Python Tuples and How to Generate Random RGB Colors** |
+| 18.3.1 | [Turtle Challenge 5 - Generate a Random Walk](./D18-Turtle_and_GUI/18.3-Python_Tuples_and_Color_Generation/18.3.1-Turtle_Random_RGB_Color_Generation/challenge5.py) |
+| 18.2.2 | [Turtle Challenge 6 - Draw a Spirograph](./D18-Turtle_and_GUI/18.3-Python_Tuples_and_Color_Generation/18.3.2-Turtle_Draw_Spirograph/challenge6.py) |
+
 ## Projects
 
 | N˚ | Concept |
@@ -26,6 +40,10 @@
 | 15 | [Coffee Machine](https://github.com/coderbri/15_coffee_machine.git) |
 | 16 | [Cofee Machine OOP](https://github.com/coderbri/16_coffee_machine_oop.git) |
 | 17 | [Quiz](https://github.com/coderbri/17_quiz_game.git) |
+| 18 | [The Hirst Painting Project](https://github.com/coderbri/18_hirst_painting_project.git) |
+| 19 | ... |
+| 20 | ... |
+| 21 | ... |
 
 
 <!-- 
