@@ -33,6 +33,16 @@
 | 18.3.1 | [Turtle Challenge 5 - Generate a Random Walk](./D18-Turtle_and_GUI/18.3-Python_Tuples_and_Color_Generation/18.3.1-Turtle_Random_RGB_Color_Generation/challenge5.py) |
 | 18.2.2 | [Turtle Challenge 6 - Draw a Spirograph](./D18-Turtle_and_GUI/18.3-Python_Tuples_and_Color_Generation/18.3.2-Turtle_Draw_Spirograph/challenge6.py) |
 
+### D19 - Instances, State & Higher Order Functions
+
+| N˚ | Concept |
+| :- | :------ |
+| 19.1 | [Python Higher Order Functions & Event Listeners](./D19-Instances_State_HO_Functions/19.1-Higher_Order_Func_Event_Listeners/task1.py) |
+| 19.1.5 | [Challenge: Make an Etch-A-Sketch App](./D19-Instances_State_HO_Functions/19.1-Higher_Order_Func_Event_Listeners/19.1.5-Etch-A-Sketch_App/) |
+| 19.2 | Object State and Instances |
+| 19.3 | [Understanding the Turtle Coordinate System](./D19-Instances_State_HO_Functions/19.3-Turtle_Coordinate_System/main.py) |
+
+
 ## Projects
 
 | N˚ | Concept |
@@ -41,7 +51,7 @@
 | 16 | [Cofee Machine OOP](https://github.com/coderbri/16_coffee_machine_oop.git) |
 | 17 | [Quiz](https://github.com/coderbri/17_quiz_game.git) |
 | 18 | [The Hirst Painting Project](https://github.com/coderbri/18_hirst_painting_project.git) |
-| 19 | ... |
+| 19 | [Turtle Race](https://github.com/coderbri/19_turtle_race.git) |
 | 20 | ... |
 | 21 | ... |
 
