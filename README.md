@@ -38,7 +38,7 @@
 | D17 | [The Benefits of OOP](./Intermediate_Python/D17-Benefits_of_OOP/) | Intermediate |
 | D18 | [Turtle & the Graphical User Interface (GUI)](./Intermediate_Python/D18-Turtle_and_GUI/) | Intermediate |
 | D19 | [Instances, State & Higher Order Functions](./Intermediate_Python/D19-Instances_State_HO_Functions/) | Intermediate |
-| D20 | ... | Intermediate |
+| D20 | [Recreating the Snake Game, Part I](./Intermediate_Python/D20-Snake_Game/) | Intermediate |
 | D21 | ... | Intermediate |
 | D22 | ... | Intermediate |
 
@@ -67,7 +67,7 @@
 | 17 | [Quiz](https://github.com/coderbri/17_quiz_game.git) | Intermediate |
 | 18 | [The Hirst Painting Project](https://github.com/coderbri/18_hirst_painting_project.git) | Intermediate |
 | 19 | [Turtle Race](https://github.com/coderbri/19_turtle_race.git) | Intermediate |
-| 20 | ... | Intermediate |
+| 20 | [Snake Game](#) | Intermediate |
 | 21 | ... | Intermediate |
 
 Course Duration: 2024.10.04 - present

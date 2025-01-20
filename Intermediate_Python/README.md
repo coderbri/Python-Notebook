@@ -42,6 +42,19 @@
 | 19.2 | Object State and Instances |
 | 19.3 | [Understanding the Turtle Coordinate System](./D19-Instances_State_HO_Functions/19.3-Turtle_Coordinate_System/main.py) |
 
+### D20 - Recreating the Snake Game, Part I
+
+| N˚ | Concept |
+| :- | :------ |
+| 20.1 | [Screen Setup and Creating a Snake Body](./D20-Snake_Game/20.1-Screen_Setup_and_Snake_Creation/main.py) |
+| 20.2 | [Animating the Snake Segments on Screen](./D20-Snake_Game/20.2-Animating_Snake_Segments/main.py) |
+| 20.3 | [Create a Snake Class & Move to OOP](./D20-Snake_Game/20.3-Snake_Class_and_Movement/main.py) |
+| 20.4 | How to Control Snake with Keypress |
+
+
+### D21 - Recreating the Snake Game, Part II
+
+
 
 ## Projects
 
@@ -52,7 +65,7 @@
 | 17 | [Quiz](https://github.com/coderbri/17_quiz_game.git) |
 | 18 | [The Hirst Painting Project](https://github.com/coderbri/18_hirst_painting_project.git) |
 | 19 | [Turtle Race](https://github.com/coderbri/19_turtle_race.git) |
-| 20 | ... |
+| 20 |[Snake Game](#) |
 | 21 | ... |
 
 
