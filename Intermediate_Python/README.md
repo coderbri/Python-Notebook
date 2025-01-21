@@ -49,7 +49,7 @@
 | 20.1 | [Screen Setup and Creating a Snake Body](./D20-Snake_Game/20.1-Screen_Setup_and_Snake_Creation/main.py) |
 | 20.2 | [Animating the Snake Segments on Screen](./D20-Snake_Game/20.2-Animating_Snake_Segments/main.py) |
 | 20.3 | [Create a Snake Class & Move to OOP](./D20-Snake_Game/20.3-Snake_Class_and_Movement/main.py) |
-| 20.4 | How to Control Snake with Keypress |
+| 20.4 | [How to Control Snake with Keypress](./D20-Snake_Game/20.4-Control_the_Snake/main.py) |
 
 
 ### D21 - Recreating the Snake Game, Part II
@@ -65,8 +65,9 @@
 | 17 | [Quiz](https://github.com/coderbri/17_quiz_game.git) |
 | 18 | [The Hirst Painting Project](https://github.com/coderbri/18_hirst_painting_project.git) |
 | 19 | [Turtle Race](https://github.com/coderbri/19_turtle_race.git) |
-| 20 |[Snake Game](#) |
-| 21 | ... |
+| 20 | [Simple Snake](#) |
+| 21 | Snake Game |
+| 22 | ... |
 
 
 <!-- 

@@ -39,7 +39,7 @@ This repository documents the development of a Snake Game built using Python and
   4. Introduced a slight delay between screen updates to create a smooth movement effect.
 - **Code Highlights:**
   ```python
-  screen.tracer(0)    # Stops constant screen refresh
+  screen.tracer(0)            # Stops constant screen refresh
   segments = []
   for position in starting_positions:
       new_segment = Turtle("square")
@@ -126,8 +126,55 @@ This repository documents the development of a Snake Game built using Python and
 
 ---
 
+### Update 3: Controlling the Snake
+**Date:** 20250120
+
+- **Objective:** Implement keyboard controls to change the snake's direction.
+- **Steps Completed:**
+  1. Configured the game to listen for keyboard inputs using `screen.listen()`.
+  2. Added key bindings to control the snake's direction using the arrow keys.
+  3. Updated the `Snake` class with methods to handle directional changes (`move_up`, `move_down`, `move_left`, `move_right`).
+  4. Incorporated conditional logic to prevent the snake from reversing direction.
+- **Code Highlights:**
+  - **`main.py`**
+    ```python
+    screen.listen()
+    screen.onkey(snake.move_up, "Up")
+    screen.onkey(snake.move_down, "Down")
+    screen.onkey(snake.move_left, "Left")
+    screen.onkey(snake.move_right, "Right")
+    ```
+
+  - **`snake.py`**
+    ```python
+    UP = 90
+    DOWN = 270
+    LEFT = 180
+    RIGHT = 0
+
+    class Snake:
+        ...
+
+        def move_up(self):
+            if self.head.heading() != DOWN:
+                self.segments[0].setheading(UP)
+
+        def move_down(self):
+            if self.head.heading() != UP:
+                self.segments[0].setheading(DOWN)
+
+        def move_left(self):
+            if self.head.heading() != RIGHT:
+                self.segments[0].setheading(LEFT)
+
+        def move_right(self):
+            if self.head.heading() != LEFT:
+                self.segments[0].setheading(RIGHT)
+    ```
+
+---
+
 ### Upcoming Updates
-- **Step 3:** Control the Snake
 - **Step 4:** Detect Collision with Food
 - **Step 5:** Create a Scoreboard
 - **Step 6:** Detect Collision with Wall

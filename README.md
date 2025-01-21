@@ -67,7 +67,7 @@
 | 17 | [Quiz](https://github.com/coderbri/17_quiz_game.git) | Intermediate |
 | 18 | [The Hirst Painting Project](https://github.com/coderbri/18_hirst_painting_project.git) | Intermediate |
 | 19 | [Turtle Race](https://github.com/coderbri/19_turtle_race.git) | Intermediate |
-| 20 | [Snake Game](#) | Intermediate |
+| 20 | [Simple Snake](#) | Intermediate |
 | 21 | ... | Intermediate |
 
 Course Duration: 2024.10.04 - present
