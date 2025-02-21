@@ -241,6 +241,60 @@ The Food class inherits from the Turtle class, allowing it to use all the built-
 
 ---
 
-## Upcoming Updates
-- **Step 5:** Create a Scoreboard
+## Update 5: Adding a Scoreboard and Detecting Collisions
+
+#### Date: 20250220
+
+- **Objective:** Implement a scoring system and begin handling collisions with walls.
+
+- **Steps Completed:**
+  1. Created a new Scoreboard class in a separate scoreboard.py file.
+  2. Displayed the score dynamically on the screen using Turtle’s write() method.
+  3. Increased the score whenever the snake successfully eats food.
+  4. Began setting up collision detection with screen boundaries (logic to be completed).
+
+
+#### Code Highlights:
+
+-	[NEW] `scoreboard.py`
+
+    ```py
+    from turtle import Turtle
+
+    class Scoreboard(Turtle):
+        def __init__(self):
+            super().__init__()
+            self.score = 0
+            self.color("white")
+            self.penup()
+            self.hideturtle()
+            self.goto(0, 270)
+            self.update_score()
+
+        def update_score(self):
+            self.clear()
+            self.write(f"Score: {self.score}", align="center", font=("Courier", 24, "normal"))
+
+        def increase_score(self):
+            self.score += 1
+            self.update_score()
+    ```
+
+-	[UPDATED] `main.py` 
+
+    ```py
+    from scoreboard import Scoreboard
+
+    scoreboard = Scoreboard()
+
+    if snake.head.distance(food) < 15:
+        print("*nom nom nom*")
+        scoreboard.increase_score()
+        food.refresh()
+    ```
+
+
+---
+
+## Final Update
 - **Step 6:** Detect Collision with Wall
