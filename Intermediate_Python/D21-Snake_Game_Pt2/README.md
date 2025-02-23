@@ -295,6 +295,36 @@ The Food class inherits from the Turtle class, allowing it to use all the built-
 
 
 ---
+## Update 6: Collision Detection with Walls (Game Over Condition)
 
-## Final Update
-- **Step 6:** Detect Collision with Wall
+#### Date: 20250222
+
+- **Objective:** End the game when the snake collides with the wall.
+
+- **Steps Completed:**
+  1. Added logic to detect when the snake's head crosses the screen boundaries.
+  2. Displayed a "GAME OVER" message both on-screen and in the console.
+  3. Integrated the collision detection within the main game loop.
+
+- **Code Highlights:**
+
+  - **`main.py`**
+    ```python
+    # main.py
+    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+        game_is_on = False
+        scoreboard.game_over()
+    ```
+
+  - **`scoreboard.py`**
+    ```py
+    def game_over(self):
+        self.goto(0, 0)
+        self.write("GAME OVER", align=ALIGNMENT, font=FONT)
+        print(f"GAME OVER. Final Score: {self.score}")
+    ```
+
+---
+## Final Update (Step 7)
+- Extend the snake’s body each time it eats food.
+- Implement collision detection with the snake’s own tail.
