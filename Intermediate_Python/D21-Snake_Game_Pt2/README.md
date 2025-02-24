@@ -325,6 +325,49 @@ The Food class inherits from the Turtle class, allowing it to use all the built-
     ```
 
 ---
-## Final Update (Step 7)
-- Extend the snake’s body each time it eats food.
-- Implement collision detection with the snake’s own tail.
+## Update 7: Extending the Snake and Detecting Self-Collision
+
+**Date:** 20250221
+
+- **Objective:** Enable the snake to grow upon consuming food and implement collision detection with its own body to end the game.
+
+- **Steps Completed:**
+  1. Added an `extend()` method in the `Snake` class to increase the snake’s length by adding a new segment at the tail.
+  2. Used list slicing to streamline the movement logic, making it more efficient by updating all segments' positions simultaneously.
+  3. Implemented a self-collision detection mechanism that ends the game when the snake's head collides with any part of its body.
+  4. **Refactored `create_snake()` in `snake.py`**: Moved segment creation logic into a separate reusable `add_segment()` method for better code reusability and maintainability.
+
+- **Efficiency Improvements Using Slicing:**
+
+  - The logic now uses Python's slice assignment to shift segment positions effectively, avoiding the need for a manual loop.
+  - This reduces the complexity of moving segments and improves performance, especially as the snake grows longer.
+
+#### Code Highlights
+
+- **`main.py`**
+  ```py
+  for segment in snake.segments[1:]: # ? Skips the head
+    if snake.head.distance(segment) < 10:
+        game_is_on = False
+        print("Collided with tail!")
+        scoreboard.game_over()
+  ```
+
+- **`snake.py`**
+  ```python
+  def extend(self):
+      self.add_segment(self.segments[-1].position())
+
+  def detect_self_collision(self):
+      for segment in self.segments[1:]:
+          if self.head.distance(segment) < 10:
+              return True
+      return False
+
+  def move(self):
+      for seg_num in range(len(self.segments) - 1, 0, -1):
+          self.segments[seg_num].goto(self.segments[seg_num - 1].pos())
+      self.head.forward(MOVE_DISTANCE)
+  ```
+
+---
