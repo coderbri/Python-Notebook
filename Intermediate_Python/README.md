@@ -54,6 +54,15 @@
 
 ### D21 - Recreating the Snake Game, Part II
 
+| N˚ | Concept |
+| :- | :------ |
+| 21.1 | **Class Inheritance** |
+| 21.2 | [Detect Collisions with Food](./D21-Snake_Game_Pt2/21.2-Detect_Collision_with_Food/main.py) |
+| 21.3 | [Create a Scoreboard and Keep Score](./D21-Snake_Game_Pt2/21.3-Scoreboard/main.py) |
+| 21.4 | [Detect Collisions with the Wall](./D21-Snake_Game_Pt2/21.4-Detect_Collision_with_Wall/main.py) |
+| 21.5 | [Detect Collisions wtih Your Own Tail](./D21-Snake_Game_Pt2/21.5-Detect_Collision_with_Tail/main.py) |
+| 21.6 | **How to Slice Lists & Tuples in Python** |
+
 
 
 ## Projects
@@ -65,8 +74,8 @@
 | 17 | [Quiz](https://github.com/coderbri/17_quiz_game.git) |
 | 18 | [The Hirst Painting Project](https://github.com/coderbri/18_hirst_painting_project.git) |
 | 19 | [Turtle Race](https://github.com/coderbri/19_turtle_race.git) |
-| 20 | [Simple Snake](#) |
-| 21 | Snake Game |
+| 20 | [Simple Snake Game](https://github.com/coderbri/20_Simple_Snake_Game.git) |
+| 21 | [Classic Snake Game](https://github.com/coderbri/21_Snake_Game.git) |
 | 22 | ... |
 
 
