@@ -40,7 +40,12 @@
 | D19 | [Instances, State & Higher Order Functions](./Intermediate_Python/D19-Instances_State_HO_Functions/) | Intermediate |
 | D20 | [Recreating the Snake Game, Part I](./Intermediate_Python/D20-Snake_Game/) | Intermediate |
 | D21 | [Recreating the Snake Game, Part II](./Intermediate_Python/D21-Snake_Game_Pt2/) | Intermediate |
-| D22 | ... | Intermediate |
+| D22 | [Build Pong: The Famous Arcade Game](./Intermediate_Python/D22-Pong_Game/) | Intermediate |
+| D23 | ... | Intermediate |
+| D24 | ... | Intermediate |
+| D25 | ... | Intermediate |
+| D26 | ... | Intermediate |
+| D27 | ... | Intermediate |
 
 
 
@@ -69,7 +74,9 @@
 | 19 | [Turtle Race](https://github.com/coderbri/19_turtle_race.git) | Intermediate |
 | 20 | [Simple Snake Game](https://github.com/coderbri/20_Simple_Snake_Game.git) | Intermediate |
 | 21 | [Classic Snake Game](https://github.com/coderbri/21_Snake_Game.git) | Intermediate |
-| 22 | ... | Intermediate |
+| 22 | Pong Game | Intermediate |
+| 23 | The Turtle Crossing | Intermediate |
+| 24 | ... | Intermediate |
 
 Course Duration: 2024.10.04 - present
 

@@ -63,6 +63,18 @@
 | 21.5 | [Detect Collisions wtih Your Own Tail](./D21-Snake_Game_Pt2/21.5-Detect_Collision_with_Tail/main.py) |
 | 21.6 | **How to Slice Lists & Tuples in Python** |
 
+### D22 - Build Pong: The Famous Arcade Game
+
+| N˚ | Concept |
+| :- | :------ |
+| 22.1 | [Main Screen Setup](./D22-Pong_Game/22.1-Main_Screen_Setup/main.py) |
+| 22.2 | [Create a Paddle that Responds to Key Presses](./D22-Pong_Game/22.2-Paddle_Keypress_Implementation/main.py) |
+| 22.3 | [Write the Paddle Class and Create the Second Paddle](./D22-Pong_Game/22.3-Paddle_Class/main.py) |
+| 22.4 | Write the Ball Class and Make the Ball Move |
+| 22.5 | Add the Ball Bouncing Logic |
+| 22.6 | How to Detect Collisions with the Paddle |
+| 22.7 | How to Detect when the Ball Goes Out of Bounds |
+| 22.8 | Score Keeping and Changing the Ball Speed |
 
 
 ## Projects
