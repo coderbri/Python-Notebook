@@ -70,7 +70,7 @@
 | 22.1 | [Main Screen Setup](./D22-Pong_Game/22.1-Main_Screen_Setup/main.py) |
 | 22.2 | [Create a Paddle that Responds to Key Presses](./D22-Pong_Game/22.2-Paddle_Keypress_Implementation/main.py) |
 | 22.3 | [Write the Paddle Class and Create the Second Paddle](./D22-Pong_Game/22.3-Paddle_Class/main.py) |
-| 22.4 | Write the Ball Class and Make the Ball Move |
+| 22.4 | [Write the Ball Class and Make the Ball Move](./D22-Pong_Game/22.4-Ball_Class/main.py) |
 | 22.5 | Add the Ball Bouncing Logic |
 | 22.6 | How to Detect Collisions with the Paddle |
 | 22.7 | How to Detect when the Ball Goes Out of Bounds |

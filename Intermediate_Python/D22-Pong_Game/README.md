@@ -156,26 +156,131 @@ screen.onkey(l_paddle.go_down, "s")
 ---
 
 
-<!-- TODO:
 ## Update 4: Create a Ball and Make it Move
+**Date:** 20250226
+
+- **Objective:** Introduce a `Ball` class to manage the ball’s movement and behavior in the game, using class inheritance for cleaner code structure.
+
+### Steps Completed:
+- **Created a `Ball` class** in `ball.py`, inheriting from `Turtle`, which simplifies the ball’s creation and movement.
+- **Set the ball’s default properties**: assigned a `"circle"` shape, white color (`"#fff"`), and enabled `penup()` to remove unnecessary drawing trails.
+- **Implemented ball movement logic** in the `move()` method, which updates the ball’s `(x, y)` position by `+10` pixels per iteration.
+- **Integrated the ball into `main.py`** and instantiated it at `(0,0)`.
+- **Controlled animation speed** by adding `time.sleep(0.1)` in the game loop, slowing down the ball’s movement efficiently instead of adjusting pixel increments.
+- **Current Limitation:** The ball currently moves in a diagonal direction indefinitely and flies out of bounds. This issue will be addressed in the next checkpoint.
+
+### Code Highlights:
+
+#### `main.py`
+
+```py
+import time
+from ball import Ball
+
+ball = Ball() # ? starting position is in (0, 0)
+
+game_is_on = True
+while game_is_on:
+    time.sleep(0.1) # ? Slows down the game loop to control ball speed
+    screen.update() # ? Manually updates the screen for smooth animation
+    ball.move() # ? Moves the ball in a diagonal direction
+
+```
+
+#### `ball.py`
+
+```py
+from turtle import Turtle
+
+# * 4. Create a Ball and Make it Move
+class Ball(Turtle):
+
+    def __init__(self):
+        """Initializes the ball at the center of the screen with default properties."""
+        super().__init__()
+        self.color("#fff")
+        self.shape("circle")
+        self.penup()
+
+    def move(self):
+        """Moves the ball diagonally by updating its x and y coordinates."""
+        new_x = self.xcor() + 10
+        new_y = self.ycor() + 10
+        self.goto(new_x, new_y)
+
+```
+
+Note: No changes were made to `paddle.py`.
+
+---
+
+<!-- TODO:
+## Update 5: Ball Bounce Logic – Detect Collision with Wall
 - add date
 - add objective
-- add steps made ...
+- add steps made in the project
 - add code highlights
 -->
+
+#### `main.py`
+
+```py
+game_is_on = True
+while game_is_on:
+    time.sleep(0.1)
+    screen.update()
+    ball.move()
+
+    # * 5. Ball Bounce Logic: Detect Collision with Wall
+    # to create collision+bounce logic, 300 is half of 600 so when the ball is
+    # above/below 300 (we'll set it at 280 so it doesn't cross the edge of the
+    # screen, we can assume that the ball has already hit "the wall", thus we
+    # can bounce from that limit
+    if ball.ycor() > 280 or ball.ycor() < -280:
+        ball.bounce()
+```
+
+#### `ball.py`
+
+```py
+from turtle import Turtle
+
+# * 4. Create a Ball and Make it Move
+class Ball(Turtle):
+
+    def __init__(self):
+        """Initializes the ball at the center of the screen with default properties."""
+        super().__init__()
+        self.color("#fff")
+        self.shape("circle")
+        self.penup()
+        self.x_move = 10
+        self.y_move = 10
+
+    # ... move logic
+
+    def bounce(self):
+        # we need to first figure out a new y coordinate coz originally,
+        # the y coordinate is going up until it hits a wall where y now
+        # needs to be reversed (if originally increasing, then it needs
+        # to decrease and vice versa). we can resolve this by creating
+        # an attribute that defines the coordinate distance the ball will bounce
+        self.y_move *= -1
+```
+
 
 ## Upcoming Features:
 
 - [x] 1. Main Screen Setup
 - [x] 2. Create and Move Paddle via Key Presses
 - [x] 3. Create Another Paddle with a Class
-- [ ] 4. Create a Ball and Make it Move
+- [x] 4. Create a Ball and Make it Move
 - [ ] 5. Ball Bounce Logic: Detect Collision with Wall
 - [ ] 6. Detect Collision with Paddle
 - [ ] 7. Detect When Ball Goes out of Bounds
 - [ ] 8. Score Keeping and Changing Ball Speed
 
---
+---
 
 ## Acknowledgments
 
