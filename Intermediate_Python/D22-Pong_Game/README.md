@@ -283,55 +283,58 @@ class Ball(Turtle):
         self.y_move *= -1
 ```
 
-
-<!-- TODO:
 ---
 
 ## Update 6: Detect Collision with Paddle
-- add date
-- add objective
-- add steps made in the project
-    - also explain the logic needed to be taken into account to ensure proper bounce logic from the paddle
-    - also explain the modification made to the bounce method by splitting the bounce logic to be one regarding just among the y-axis and x-axis, respectively
-- add code highlights
+**Date:** 20250228
+
+- **Objective:** Implement logic to detect when the ball collides with a paddle and ensure it bounces properly along the x-axis.
+
+### Steps Taken
+- **Refactored the bounce logic:**
+    - Previously, the `bounce()` method handled all bouncing logic, but now it is split into two separate methods:
+        - `bounce_y()`: Handles bouncing when the ball collides with the top or bottom walls.
+        - `bounce_x()`: Handles bouncing when the ball collides with a paddle.
+- **Implemented paddle collision detection:**
+    - The ball should bounce off the paddles only if:
+        - It moves far enough along the x-axis (past ±320).
+        - It is within **50 pixels** of the paddle’s position (to account for edge cases where the ball might hit near the paddle’s edges).
+- **Tested paddle collision detection:**
+    - Printed `"Made contact!"` when the ball successfully hit a paddle to confirm detection before implementing the bounce effect.
+
+### Code Highlights
 
 #### `main.py`
-```py
- # * 5. Ball Bounce Logic: Detect Collision with Wall
-    # ? Reverse direction when the ball hits the top or bottom wall
-    if ball.ycor() > 280 or ball.ycor() < -280:
-        ball.bounce_y() # ? changed from .bounce to .bounce_y
 
-    # * 6. Detect Collision with Paddle
-    # this logic calls for taking into account edge cases in which the ball may
-    # not always hit the paddle directly in the center but on the edges. To take
-    # that into account, we cannot measure the distance within less than the 20 pixels.
-    # Instead we can solve this problem by adding an additional condition in which if
-    # the ball has gone past a certain point on the x-axis (going far enough to the
-    # right) and its within a 50 pixel distance of the paddle, then that means the ball
-    # has hit the paddle
-    if (
-            ball.distance(r_paddle) < 50 and ball.xcor() > 320
-            or ball.distance(l_paddle) < 50 and ball.xcor() < -320
-    ):
-        print("Made contact!") # test first that the hit can be detected
-        # after confirming that contact has been made, we can make the ball bounce but among the x-axis
-        ball.bounce_x()
+```py
+# * 5. Ball Bounce Logic: Detect Collision with Wall
+# ? Reverse direction when the ball hits the top or bottom wall
+if ball.ycor() > 280 or ball.ycor() < -280:
+    ball.bounce_y()  # ? Changed from .bounce() to .bounce_y()
+
+# * 6. Detect Collision with Paddle
+if (
+        ball.distance(r_paddle) < 50 and ball.xcor() > 320
+        or ball.distance(l_paddle) < 50 and ball.xcor() < -320
+):
+    print("Made contact!")  # Test detection first
+    ball.bounce_x()         # Bounce in the x direction after paddle contact
 ```
 
 #### `ball.py`
-```py
-    # * 5. Ball Bounce Logic: Detect Collision with Wall
-    def bounce_y(self):
-        """Reverses the ball's vertical direction when it collides with the top or bottom wall."""
-        self.y_move *= -1
 
-    # * 6. Detect Collision with Paddle
-    # we'll need another method that will make the ball bounce within the x-axis upon paddle contact
-    def bounce_x(self):
-        self.x_move *= -1
+```py
+# * 5. Ball Bounce Logic: Detect Collision with Wall
+def bounce_y(self):
+    """Reverses the ball's vertical direction when it collides with the top or bottom wall."""
+    self.y_move *= -1
+
+# * 6. Detect Collision with Paddle
+def bounce_x(self):
+    """Reverses the ball's horizontal direction when it collides with a paddle."""
+    self.x_move *= -1
 ```
--->
+
 
 <!-- TODO:
 ---
@@ -353,7 +356,7 @@ class Ball(Turtle):
 - [x] 3. Create Another Paddle with a Class
 - [x] 4. Create a Ball and Make it Move
 - [x] 5. Ball Bounce Logic: Detect Collision with Wall
-- [ ] 6. Detect Collision with Paddle
+- [x] 6. Detect Collision with Paddle
 - [ ] 7. Detect When Ball Goes out of Bounds
 - [ ] 8. Score Keeping and Changing Ball Speed
 
