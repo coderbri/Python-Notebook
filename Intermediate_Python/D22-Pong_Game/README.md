@@ -335,15 +335,151 @@ def bounce_x(self):
     self.x_move *= -1
 ```
 
+---
+
+## Update 7: Detect When Ball Goes out of Bounds
+**Date:** 20250228
+
+- **Objective:** Implement logic to detect when the ball goes out of bounds, ensuring that when a paddle fails to return the ball, the opponent is awarded a point, and the ball resets for the next round.
+
+### Steps Taken
+- **Defined out-of-bounds detection:**
+    - The game screen has a width of **800 pixels**, with paddles positioned around **±350** on the x-axis.
+    - Since each paddle extends from approximately **±340 to ±360**, if the ball moves beyond **±380**, it has officially gone out of bounds.
+- **Implemented reset behavior:**
+    - When the ball crosses **+380** on the x-axis, the **right paddle missed** the ball.
+    - When the ball crosses **-380** on the x-axis, the **left paddle missed** the ball.
+    - In either case, the ball **resets to the center** of the screen and reverses direction, ensuring it moves toward the opponent’s side.
+
+### Code Highlights
+
+#### `main.py`
+
+```py
+while game_is_on:
+    # * 7. Detect When Ball Goes out of Bounds
+    if ball.xcor() > 380:   # ? Right paddle missed
+        ball.reset_position()
+
+    if ball.xcor() < -380:  # ? Left paddle missed
+        ball.reset_position()
+```
+
+#### `ball.py`
+
+```py
+class Ball(Turtle):
+    # * 7. Detect When Ball Goes out of Bounds
+    def reset_position(self):
+        """Resets the ball to the center of the screen and reverses its horizontal direction."""
+        self.goto(0, 0)
+        self.bounce_x()
+```
+
 
 <!-- TODO:
 ---
 
-## Update 7: Detect When Ball Goes out of Bounds
+## Update 8: Score Keeping and Changing Ball Speed
 - add date
 - add objective
 - add steps made in the project
+    - implement score keeping for both sides
+    - added logic for ball speed by initializing the ball with a default move speed instead of declaring it in the `.sleep()` method, that way the speed can be dynamically increased
+    - resolved issue where the "W" and "S" key did not respond as fast the UP and DOWN arrow keys
 - add code highlights
+
+#### `main.py`
+```py
+from scoreboard import Scoreboard
+
+# * 8.1 Setting up Scoreboard
+scoreboard = Scoreboard()
+
+screen.onkeypress(r_paddle.go_up, "Up")
+screen.onkeypress(r_paddle.go_down, "Down")
+screen.onkeypress(l_paddle.go_up, "w")
+screen.onkeypress(l_paddle.go_down, "s")
+'''
+there's a bug with Turtle in which the "W" and "S" keys, moving a little bit at a time,
+responds slower than the UP and DOWN arrow keys, which moves significantly faster.
+To improve responsiveness, change `onKey()` to `onKeyPress()` which functions with the same parameters
+'''
+
+while game_is_on:
+    # * 8. Adjusting Ball Speed
+    time.sleep(ball.move_speed)         # ?
+
+    # * 7-8. Detect When Ball Goes out of Bounds and Score Keeping
+    if ball.xcor() > 380:   # ? Right paddle missed
+        ball.reset_position()
+        scoreboard.increment_l_points()
+
+    if ball.xcor() < -380:  # ? Left paddle missed
+        ball.reset_position()
+        scoreboard.increment_r_points()
+```
+
+#### `ball.py`
+```py
+class Ball(Turtle):
+    def __init__(self):
+        self.move_speed = 0.1   # ? the starting slow speed the ball moves in
+    
+    def bounce_x(self):
+        """Reverses the ball's horizontal direction when it collides with a paddle."""
+        self.x_move *= -1
+        self.move_speed *= 0.9 # ? each time the ball hits the paddle, gradually increase speed
+
+    # * 7. Detect When Ball Goes out of Bounds
+    def reset_position(self):
+        """Resets the ball to the center of the screen and reverses its horizontal direction."""
+        self.goto(0, 0)
+        self.move_speed = 0.1 # ? to prevent the ball's speed from increasing indefinitely
+        self.bounce_x()
+
+```
+
+#### `scoreboard.py`
+```py
+from turtle import Turtle
+
+ALIGNMENT = "center"
+FONT = ("Courier New", 80, "normal")
+
+# * 8. Score Keeping and Adjusting Ball Speed
+class Scoreboard(Turtle):
+
+    def __init__(self):
+        super().__init__()
+        # self.score = 0
+        self.color("white")
+        self.penup()
+        self.hideturtle()
+
+        # ? two score attributes are needed to be set so each can be separately incremented
+        self.l_score = 0
+        self.r_score = 0
+        self.update_scoreboard()
+
+    def update_scoreboard(self):
+        self.clear()
+        self.goto(-100, 200)  # ? l_score location
+        self.write(self.l_score, align=ALIGNMENT, font=FONT)
+        self.goto(100, 200)  # ? r_score location
+        self.write(self.r_score, align=ALIGNMENT, font=FONT)
+
+    def increment_l_points(self):
+        self.l_score += 1
+        self.update_scoreboard()
+
+    def increment_r_points(self):
+        self.r_score += 1
+        self.update_scoreboard()
+
+```
+
+
 
 -->
 
@@ -357,7 +493,7 @@ def bounce_x(self):
 - [x] 4. Create a Ball and Make it Move
 - [x] 5. Ball Bounce Logic: Detect Collision with Wall
 - [x] 6. Detect Collision with Paddle
-- [ ] 7. Detect When Ball Goes out of Bounds
+- [x] 7. Detect When Ball Goes out of Bounds
 - [ ] 8. Score Keeping and Changing Ball Speed
 
 ---

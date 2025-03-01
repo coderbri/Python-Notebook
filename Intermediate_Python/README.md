@@ -71,9 +71,9 @@
 | 22.2 | [Create a Paddle that Responds to Key Presses](./D22-Pong_Game/22.2-Paddle_Keypress_Implementation/main.py) |
 | 22.3 | [Write the Paddle Class and Create the Second Paddle](./D22-Pong_Game/22.3-Paddle_Class/main.py) |
 | 22.4 | [Write the Ball Class and Make the Ball Move](./D22-Pong_Game/22.4-Ball_Class/main.py) |
-| 22.5 | Add the Ball Bouncing Logic |
-| 22.6 | How to Detect Collisions with the Paddle |
-| 22.7 | How to Detect when the Ball Goes Out of Bounds |
+| 22.5 | [Add the Ball Bouncing Logic](./D22-Pong_Game/22.5-Ball_Bounce_Logic/main.py) |
+| 22.6 | [How to Detect Collisions with the Paddle](./D22-Pong_Game/22.6-Detect_Collisions_with_Paddle/main.py) |
+| 22.7 | [How to Detect when the Ball Goes Out of Bounds](./D22-Pong_Game/22.7-Out_of_Bounds_Detection/main.py) |
 | 22.8 | Score Keeping and Changing the Ball Speed |
 
 
@@ -88,7 +88,8 @@
 | 19 | [Turtle Race](https://github.com/coderbri/19_turtle_race.git) |
 | 20 | [Simple Snake Game](https://github.com/coderbri/20_Simple_Snake_Game.git) |
 | 21 | [Classic Snake Game](https://github.com/coderbri/21_Snake_Game.git) |
-| 22 | ... |
+| 22 | Pong Game |
+| 23 | ... |
 
 
 <!-- 
