@@ -376,20 +376,29 @@ class Ball(Turtle):
         self.bounce_x()
 ```
 
-
-<!-- TODO:
 ---
 
 ## Update 8: Score Keeping and Changing Ball Speed
-- add date
-- add objective
-- add steps made in the project
-    - implement score keeping for both sides
-    - added logic for ball speed by initializing the ball with a default move speed instead of declaring it in the `.sleep()` method, that way the speed can be dynamically increased
-    - resolved issue where the "W" and "S" key did not respond as fast the UP and DOWN arrow keys
-- add code highlights
+**Date:** 20250301
+
+- **Objective:** Enhance gameplay by implementing a scoreboard to track player scores and introducing dynamic ball speed adjustments for a more challenging experience.
+
+### Steps Taken
+- **Implemented scorekeeping:**
+    - Created a `Scoreboard` class to track each player’s score.
+    - The score updates dynamically on the screen whenever a player misses the ball.
+- **Adjusted ball speed dynamically:**
+    - Instead of setting the ball’s speed directly in `time.sleep()`, initialized it with a `move_speed` attribute.
+    - Each time the ball hits a paddle, its speed **increases by 10%**, making the game progressively harder.
+    - When the ball goes out of bounds, its speed **resets to default**, preventing indefinite acceleration.
+- **(Debugging) Fixed paddle responsiveness issue:**
+    - The "w" and "s" keys initially responded slower than the "Up" and "Down" arrow keys.
+    - **Solution:** Changed `onkey()` to `onkeypress()`, ensuring key presses are registered immediately for both players.
+
+### Code Highlights
 
 #### `main.py`
+
 ```py
 from scoreboard import Scoreboard
 
@@ -401,17 +410,21 @@ screen.onkeypress(r_paddle.go_down, "Down")
 screen.onkeypress(l_paddle.go_up, "w")
 screen.onkeypress(l_paddle.go_down, "s")
 '''
-there's a bug with Turtle in which the "W" and "S" keys, moving a little bit at a time,
-responds slower than the UP and DOWN arrow keys, which moves significantly faster.
-To improve responsiveness, change `onKey()` to `onKeyPress()` which functions with the same parameters
+Fix for paddle responsiveness:
+The "W" and "S" keys moved the paddle in smaller increments compared to the arrow keys.
+Using `onkeypress()` instead of `onkey()` ensures immediate response for both players.
 '''
 
 while game_is_on:
     # * 8. Adjusting Ball Speed
-    time.sleep(ball.move_speed)         # ?
+    time.sleep(ball.move_speed)  # Uses dynamic speed instead of a fixed delay.
 
     # * 7-8. Detect When Ball Goes out of Bounds and Score Keeping
-    if ball.xcor() > 380:   # ? Right paddle missed
+    '''
+    If a paddle fails to return the ball, the opponent gains a point.
+    The ball resets to the center and moves toward the scoring player.
+    '''
+    if ball.xcor() > 380:  # ? Right paddle missed
         ball.reset_position()
         scoreboard.increment_l_points()
 
@@ -421,26 +434,33 @@ while game_is_on:
 ```
 
 #### `ball.py`
+
 ```py
 class Ball(Turtle):
     def __init__(self):
-        self.move_speed = 0.1   # ? the starting slow speed the ball moves in
-    
+        """Initializes the ball with a default speed and movement attributes."""
+        super().__init__()
+        self.color("white")
+        self.shape("circle")
+        self.penup()
+        self.x_move = 10
+        self.y_move = 10
+        self.move_speed = 0.1  # ? Default ball speed, gradually increases upon paddle collision.
+
     def bounce_x(self):
-        """Reverses the ball's horizontal direction when it collides with a paddle."""
+        """Reverses the ball's horizontal direction when it collides with a paddle and increases speed."""
         self.x_move *= -1
-        self.move_speed *= 0.9 # ? each time the ball hits the paddle, gradually increase speed
+        self.move_speed *= 0.9  # ? Ball speeds up by 10% upon hitting a paddle.
 
-    # * 7. Detect When Ball Goes out of Bounds
     def reset_position(self):
-        """Resets the ball to the center of the screen and reverses its horizontal direction."""
+        """Resets the ball to the center, restores default speed, and reverses direction."""
         self.goto(0, 0)
-        self.move_speed = 0.1 # ? to prevent the ball's speed from increasing indefinitely
+        self.move_speed = 0.1  # ? Resets speed to prevent indefinite acceleration.
         self.bounce_x()
-
 ```
 
 #### `scoreboard.py`
+
 ```py
 from turtle import Turtle
 
@@ -451,50 +471,35 @@ FONT = ("Courier New", 80, "normal")
 class Scoreboard(Turtle):
 
     def __init__(self):
+        """Initializes the scoreboard, tracks scores for both players, and displays the initial score."""
         super().__init__()
-        # self.score = 0
         self.color("white")
         self.penup()
         self.hideturtle()
 
-        # ? two score attributes are needed to be set so each can be separately incremented
+        # ? Separate attributes for left and right player scores
         self.l_score = 0
         self.r_score = 0
         self.update_scoreboard()
 
     def update_scoreboard(self):
+        """Clears the previous score and updates the screen with the latest scores."""
         self.clear()
-        self.goto(-100, 200)  # ? l_score location
+        self.goto(-100, 200)  # ? Left player's score position
         self.write(self.l_score, align=ALIGNMENT, font=FONT)
-        self.goto(100, 200)  # ? r_score location
+        self.goto(100, 200)  # ? Right player's score position
         self.write(self.r_score, align=ALIGNMENT, font=FONT)
 
     def increment_l_points(self):
+        """Increments left player's score and updates the scoreboard."""
         self.l_score += 1
         self.update_scoreboard()
 
     def increment_r_points(self):
+        """Increments right player's score and updates the scoreboard."""
         self.r_score += 1
         self.update_scoreboard()
-
 ```
-
-
-
--->
-
----
-
-## Upcoming Features:
-
-- [x] 1. Main Screen Setup
-- [x] 2. Create and Move Paddle via Key Presses
-- [x] 3. Create Another Paddle with a Class
-- [x] 4. Create a Ball and Make it Move
-- [x] 5. Ball Bounce Logic: Detect Collision with Wall
-- [x] 6. Detect Collision with Paddle
-- [x] 7. Detect When Ball Goes out of Bounds
-- [ ] 8. Score Keeping and Changing Ball Speed
 
 ---
 

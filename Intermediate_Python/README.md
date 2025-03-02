@@ -74,7 +74,7 @@
 | 22.5 | [Add the Ball Bouncing Logic](./D22-Pong_Game/22.5-Ball_Bounce_Logic/main.py) |
 | 22.6 | [How to Detect Collisions with the Paddle](./D22-Pong_Game/22.6-Detect_Collisions_with_Paddle/main.py) |
 | 22.7 | [How to Detect when the Ball Goes Out of Bounds](./D22-Pong_Game/22.7-Out_of_Bounds_Detection/main.py) |
-| 22.8 | Score Keeping and Changing the Ball Speed |
+| 22.8 | [Score Keeping and Changing the Ball Speed](./D22-Pong_Game/22.8-Score_Keeping_and_Ball_Speed/main.py) |
 
 
 ## Projects
