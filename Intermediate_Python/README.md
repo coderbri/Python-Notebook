@@ -76,6 +76,18 @@
 | 22.7 | [How to Detect when the Ball Goes Out of Bounds](./D22-Pong_Game/22.7-Out_of_Bounds_Detection/main.py) |
 | 22.8 | [Score Keeping and Changing the Ball Speed](./D22-Pong_Game/22.8-Score_Keeping_and_Ball_Speed/main.py) |
 
+### D23 - The Turtle Crossing [CAPSTONE PROJECT]
+
+| N˚ | Concept |
+| :- | :------ |
+| 23.1 | [Main Game Setup](./D23-Turtle_Crossing_Capstone/23.1-Main_Game_Setup/main.py) |
+| 23.2 | Create the Player Behavior |
+| 23.3 | Create the Car Behavior |
+| 23.4 | Detect when the Turtle Collides with a Car (Game Over Logic) |
+| 23.5 | Detect when the Player has reached the other side |
+| 23.6 | Add the Scoreboard and Game Over Sequence |
+
+
 
 ## Projects
 
@@ -88,8 +100,9 @@
 | 19 | [Turtle Race](https://github.com/coderbri/19_turtle_race.git) |
 | 20 | [Simple Snake Game](https://github.com/coderbri/20_Simple_Snake_Game.git) |
 | 21 | [Classic Snake Game](https://github.com/coderbri/21_Snake_Game.git) |
-| 22 | Pong Game |
-| 23 | ... |
+| 22 | [Pong Game](https://github.com/coderbri/22_Pong.git) |
+| 23 | Turtle Crossing [Capstone Project] |
+| 24 | ... |
 
 
 <!-- 

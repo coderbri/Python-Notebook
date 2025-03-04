@@ -1,9 +1,8 @@
 # Pong - Classic Arcade Game: Update Log
 
-<!-- TODO: To be filled out later 
+Pong is one of the earliest arcade video games, simulating table tennis where two players control paddles to hit a bouncing ball back and forth. This recreation of Pong is built using Python and Turtle Graphics, featuring scorekeeping, dynamic ball speed, and responsive controls.
 
-## Project Overview
--->
+---
 
 ## Update 1: Main Screen Setup
 **Date:** 20250225
