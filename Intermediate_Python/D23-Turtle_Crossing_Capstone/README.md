@@ -136,6 +136,8 @@ class CarManager(Turtle):
 #### `main.py`
 
 ```python
+from player import Player
+
 # Create an instance of the Player class
 test_player = Player()
 
@@ -169,19 +171,120 @@ class Player(Turtle):
     def move_forwards(self):
         """Move the turtle forward (north) by MOVE_DISTANCE pixels."""
         self.goto(self.xcor(), self.ycor() + MOVE_DISTANCE)
+```
 
+---
+
+## Update 3: Create the Car Behavior
+**Date:** 20250306
+
+**Objective:** Implement moving cars that spawn randomly along the y-axis and move leftward across the screen.
+- Cars should be **20px high** by **40px wide**.
+- They should **spawn randomly** but **avoid** the top and bottom **50px** of the screen (safe zones).
+- A new car is generated only **every 6th loop cycle** to prevent overcrowding.
+
+### Steps Taken:
+1. **Created the `CarManager` class**
+    - Stores and manages all moving cars in a list (`self.all_cars`).
+
+2. **Implemented car spawning logic**
+    - Randomly generates a car **only 1/6th of the time** per game loop.
+    - Assigns a **random color** from predefined palettes.
+    - Cars spawn **on the right edge** (`x=300`) at a **random y-coordinate** within safe bounds (`-225 to 225`).
+
+3. **Implemented movement logic**
+    - Cars move **leftward** (`car.backward()`) by the **starting move distance** (`STARTING_MOVE_DISTANCE = 5`).
+    - This movement will later be **increased** to create difficulty progression.
+
+### Code Highlights:
+
+#### `main.py`
+
+```python
+import time
+from turtle import Screen
+from player import Player
+from car_manager import CarManager
+
+# Initialize the game screen
+screen = Screen()
+screen.setup(width=600, height=600)
+screen.bgcolor("AntiqueWhite")
+screen.title("Turtle Crossing")
+screen.tracer(0)
+
+# Create player and car manager instances
+player = Player()
+car_manager = CarManager()
+
+# Listen for player input
+screen.listen()
+screen.onkeypress(player.move_forwards, "w")
+
+# Game loop
+game_is_on = True
+while game_is_on:
+    time.sleep(0.1)
+    screen.update()
+
+    # * 3. Create the Car Behavior
+    car_manager.create_car()  # Randomly create cars
+    car_manager.move_cars()   # Move all cars leftward
+
+screen.exitonclick()
+```
+
+#### `car_manager.py`
+
+```python
+import random
+from turtle import Turtle
+
+# Constants for car behavior
+COLORS = ["#FCC1C1", "#FCDFC1", "#FCFCC1", "#C1FCDF", "#C1E0FC", "#C1C2FC"]  # Car fill colors
+COLORS_OUTLINE = ["red", "orange", "goldenrod", "green", "blue", "purple"]   # Car outline colors
+STARTING_MOVE_DISTANCE = 5  # Initial speed of the cars
+MOVE_INCREMENT = 10         # Speed increase per level
+
+# * 3. Create the Car Behavior
+class CarManager:
+
+    def __init__(self):
+        """Initialize the CarManager with an empty list of cars."""
+        self.all_cars = []
+
+    def create_car(self):
+        """Randomly generates a car and adds it to the game.
+        A new car is created only 1 out of every 6 game loops to prevent overcrowding.
+        """
+        random_chance = random.randint(1, 6)
+        if random_chance == 1:  # Limits car creation frequency
+            new_car = Turtle("square")
+            new_car.shapesize(stretch_wid=1, stretch_len=2)  # Resize to 20x40 px
+            new_car.penup()
+            new_car.color(random.choice(COLORS_OUTLINE), random.choice(COLORS))
+
+            # Generate a random y-coordinate within safe bounds (-225 to 225)
+            random_y = random.randint(-225, 225)
+            new_car.goto(300, random_y)  # Cars start from the right edge
+
+            self.all_cars.append(new_car)  # Add to car list
+
+    def move_cars(self):
+        """Moves all cars leftward across the screen."""
+        for car in self.all_cars:
+            car.backward(STARTING_MOVE_DISTANCE)  # Move each car left by 5 pixels
 ```
 
 
 <!-- TODO:
 ---
 
-## Update 3: Create the Car Behavior
-
+## Update 4: Detect when the Turtle Collides with a Car (Game Over Logic)
 
 - add date
 - add objective
-    - Create cars that are 20px high by 40px wide that are randomly generated along the y-axis and move to the left edge of the screen. No cars should be generated in the top and bottom 50px of the screen (think of it as a safe zone for our little turtle). Hint: generate a new car only every 6th time the game loop runs.
+    - Detect when the turtle player collides with a car and stop the game if this happens.
 - add steps made in the project
 - add code highlights
 
@@ -199,17 +302,27 @@ class Player(Turtle):
 
 -->
 
+
 <!-- TODO:
 ---
 
-## Update 4: Detect when the Turtle Collides with a Car (Game Over Logic)
+## Update 5: Detect when the Player has reached the other side
 
 - add date
 - add objective
+    -  Detect when the turtle player has reached the top edge of the screen (i.e., reached the FINISH_LINE_Y). When this happens, return the turtle to the starting position and increase the speed of the cars. Hint: think about creating an attribute and using the MOVE_INCREMENT to increase the car speed.
 - add steps made in the project
 - add code highlights
 
-#### main.py
+#### `main.py`
+```py
+```
+
+#### `player.py`
+```py
+```
+
+#### `car_manager.py`
 ```py
 ```
 
@@ -224,7 +337,7 @@ class Player(Turtle):
 - [x] 2. Create the Player Behavior
 <!-- Create a turtle player that starts at the bottom of the screen and listen for the "Up" keypress to move the turtle north. -->
 
-- [ ] 3. Create the Car Behavior
+- [x] 3. Create the Car Behavior
 <!-- Create cars that are 20px high by 40px wide that are randomly generated along the y-axis and move to the left edge of the screen. No cars should be generated in the top and bottom 50px of the screen (think of it as a safe zone for our little turtle). Hint: generate a new car only every 6th time the game loop runs. -->
 
 - [ ] 4. Detect when the Turtle Collides with a Car (Game Over Logic)
