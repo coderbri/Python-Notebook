@@ -270,14 +270,14 @@ class CarManager:
 ## Update 4: Detect when the Turtle Collides with a Car (Game Over Logic)
 **Date:** 20250306
 
-**Objective:**  
+**Objective:**
     - Detect when the turtle player collides with a car and stop the game if this happens.
 - **Steps Taken:**
     - Iterated through all cars in `car_manager.all_cars`.
     - Checked if the turtle’s distance from any car is less than 20px.
     - If a collision occurs, the game loop stops.
 
-### Code Highlights  
+### Code Highlights
 
 #### `main.py`
 ```py

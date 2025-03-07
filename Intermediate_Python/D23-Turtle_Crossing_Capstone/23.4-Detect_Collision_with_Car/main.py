@@ -31,6 +31,6 @@ while game_is_on:
     # * 4. Detect when the Turtle Collides with a Car
     for car in car_manager.all_cars:
         if car.distance(player) < 20:
-            game_is_on = False      # Stops the game loop on collision
+            game_is_on = False
 
 screen.exitonclick()

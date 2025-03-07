@@ -1,9 +1,9 @@
 from turtle import Turtle
 
 # Constants for the player's behavior
-STARTING_POSITION = (0, -280)   # ? The initial position of the turtle
-MOVE_DISTANCE = 10              # ? The number of pixels the turtle moves forward
-FINISH_LINE_Y = 280             # ? The Y-coordinate the turtle needs to reach to win
+STARTING_POSITION = (0, -280)
+MOVE_DISTANCE = 10
+FINISH_LINE_Y = 280
 
 # * 2. Create the Player Behavior
 class Player(Turtle):
