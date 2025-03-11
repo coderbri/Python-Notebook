@@ -270,12 +270,12 @@ class CarManager:
 ## Update 4: Detect when the Turtle Collides with a Car (Game Over Logic)
 **Date:** 20250306
 
-**Objective:**
-    - Detect when the turtle player collides with a car and stop the game if this happens.
-- **Steps Taken:**
-    - Iterated through all cars in `car_manager.all_cars`.
-    - Checked if the turtle’s distance from any car is less than 20px.
-    - If a collision occurs, the game loop stops.
+**Objective:** Detect when the turtle player collides with a car and stop the game if this happens.
+
+### **Steps Taken**
+- Iterated through all cars in `car_manager.all_cars`.
+- Checked if the turtle’s distance from any car is less than 20px.
+- If a collision occurs, the game loop stops.
 
 ### Code Highlights
 
@@ -292,34 +292,41 @@ while game_is_on:
 screen.exitonclick()
 ```
 
-<!-- TODO:
 ---
 
 ## Update 5: Detect when the Player has reached the other side
+**Date:** 20250307
 
-- add date
-- add objective
-    -  Detect when the turtle player has reached the top edge of the screen (i.e., reached the FINISH_LINE_Y). When this happens, return the turtle to the starting position and increase the speed of the cars. Hint: think about creating an attribute and using the MOVE_INCREMENT to increase the car speed.
+**Objective:**  
+- Detect when the turtle player reaches the top edge of the screen (FINISH_LINE_Y).  
+- When the player reaches the finish line:
+    - Reset the turtle to the starting position.  
+    - Increase the speed of the cars using `MOVE_INCREMENT`.  
 
-- add steps made in the project
+### **Steps Taken:**
+- Implemented `is_at_finish_line()` in `Player` class to check if the turtle has reached the goal.  
+- Created `got_to_start()` to reset the turtle’s position after reaching the finish line.  
+- Added `level_up()` in `CarManager` to increase car speed after each successful crossing.  
+- Integrated logic into `main.py` to trigger these behaviors when the turtle wins.  
 
-- add code highlights
+### **Code Highlights**  
 
 #### `main.py`
 ```py
 player = Player()
 car_manager = CarManager()
 
-game_is_on= True
+game_is_on = True
 while game_is_on:
 
     # * 5. Detect when the Player has reached the other side
     if player.is_at_finish_line():
-        player.got_to_start()       # ? Reset turtle position
-        car_manager.level_up()      # ? Increase car speed
+        player.got_to_start()   # ? Reset turtle position
+        car_manager.level_up()  # ? Increase car speed
 ```
 
 #### `player.py`
+
 ```py
 from turtle import Turtle
 
@@ -346,25 +353,25 @@ class Player(Turtle):
         self.goto(self.xcor(), self.ycor() + MOVE_DISTANCE)
 
     def got_to_start(self):
+        """Reset the turtle's position to the starting point."""
         self.goto(STARTING_POSITION)
 
     def is_at_finish_line(self):
-        if self.ycor() > FINISH_LINE_Y:
-            return True
-        else:
-            return False
+        """Check if the turtle has crossed the finish line."""
+        return self.ycor() > FINISH_LINE_Y
 ```
 
 #### `car_manager.py`
+
 ```py
 import random
 from turtle import Turtle
 
 # Constants for car behavior
-COLORS = ["#FCC1C1", "#FCDFC1", "#FCFCC1", "#C1FCDF", "#C1E0FC", "#C1C2FC"]  # Car fill colors
-COLORS_OUTLINE = ["red", "orange", "goldenrod", "green", "blue", "purple"]   # Car outline colors
+COLORS = ["#FCC1C1", "#FCDFC1", "#FCFCC1", "#C1FCDF", "#C1E0FC", "#C1C2FC"]
+COLORS_OUTLINE = ["red", "orange", "goldenrod", "green", "blue", "purple"]
 STARTING_MOVE_DISTANCE = 5  # Initial speed of the cars
-MOVE_INCREMENT = 10         # Speed increase per level
+MOVE_INCREMENT = 5          # Speed increase per level
 
 # * 3. Create the Car Behavior
 class CarManager:
@@ -373,35 +380,20 @@ class CarManager:
         """Initialize the CarManager with an empty list of cars."""
         self.all_cars = []
         self.car_speed = STARTING_MOVE_DISTANCE
-
-    def create_car(self):
-        """Randomly generates a car and adds it to the game.
-        A new car is created only 1 out of every 6 game loops to prevent overcrowding.
-        """
-        random_chance = random.randint(1, 6)
-        if random_chance == 1:  # Limits car creation frequency
-            new_car = Turtle("square")
-            new_car.shapesize(stretch_wid=1, stretch_len=2)  # Resize to 20x40 px
-            new_car.penup()
-            new_car.color(random.choice(COLORS_OUTLINE), random.choice(COLORS))
-
-            # Generate a random y-coordinate within safe bounds (-225 to 225)
-            random_y = random.randint(-225, 225)
-            new_car.goto(300, random_y)  # Cars start from the right edge
-
-            self.all_cars.append(new_car)  # Add to car list
+    
+    # ...
 
     def move_cars(self):
         """Moves all cars leftward across the screen."""
         for car in self.all_cars:
-            car.backward(self.car_speed)  # Move each car left by 5 pixels
+            car.backward(self.car_speed)    # Move each car left by incremented pixels
 
     # * 5. Detect when the Player has reached the other side
-    def level_up(self): # speed up cars a bit with each level
-        self.car_speed += MOVE_INCREMENT/2
+    def level_up(self):
+        """Increase the speed of cars when the player reaches the finish line."""
+        self.car_speed += MOVE_INCREMENT    # Gradually increase speed per level
 ```
 
--->
 
 <!-- TODO:
 ---
@@ -443,7 +435,7 @@ class CarManager:
 - [x] 4. Detect when the Turtle Collides with a Car (Game Over Logic)
 <!-- Detect when the turtle player collides with a car and stop the game if this happens. -->
 
-- [ ] 5. Detect when the Player has reached the other side
+- [x] 5. Detect when the Player has reached the other side
 <!-- Detect when the turtle player has reached the top edge of the screen (i.e., reached the FINISH_LINE_Y). When this happens, return the turtle to the starting position and increase the speed of the cars. Hint: think about creating an attribute and using the MOVE_INCREMENT to increase the car speed. -->
 
 - [ ] 6. Add the Scoreboard and Game Over Sequence
