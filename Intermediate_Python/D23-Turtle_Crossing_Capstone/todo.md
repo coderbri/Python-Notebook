@@ -1,4 +1,4 @@
-## Features to Implement
+## Features Implemented
 
 - [x] 1. Main Game Setup
 
@@ -14,5 +14,5 @@
 - [x] 5. Detect when the Player has reached the other side
 <!-- Detect when the turtle player has reached the top edge of the screen (i.e., reached the FINISH_LINE_Y). When this happens, return the turtle to the starting position and increase the speed of the cars. Hint: think about creating an attribute and using the MOVE_INCREMENT to increase the car speed. -->
 
-- [ ] 6. Add the Scoreboard and Game Over Sequence
+- [x] 6. Add the Scoreboard and Game Over Sequence
 <!-- Create a scoreboard that keeps track of which level the user is on. Every time the turtle player does a successful crossing, the level should increase. When the turtle hits a car, GAME OVER should be displayed in the centre. -->

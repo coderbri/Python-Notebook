@@ -81,11 +81,22 @@
 | N˚ | Concept |
 | :- | :------ |
 | 23.1 | [Main Game Setup](./D23-Turtle_Crossing_Capstone/23.1-Main_Game_Setup/main.py) |
-| 23.2 | Create the Player Behavior |
-| 23.3 | Create the Car Behavior |
-| 23.4 | Detect when the Turtle Collides with a Car (Game Over Logic) |
-| 23.5 | Detect when the Player has reached the other side |
-| 23.6 | Add the Scoreboard and Game Over Sequence |
+| 23.2 | [Create the Player Behavior](./D23-Turtle_Crossing_Capstone/23.2-Player_Behaviour/main.py) |
+| 23.3 | [Create the Car Behavior](./D23-Turtle_Crossing_Capstone/23.3-Car_Behaviour/main.py) |
+| 23.4 | [Detect when the Turtle Collides with a Car (Game Over Logic)](./D23-Turtle_Crossing_Capstone/23.4-Detect_Collision_with_Car/main.py) |
+| 23.5 | [Detect when the Player has reached the other side](./D23-Turtle_Crossing_Capstone/23.5-Detect_Crossing_to_Other_Side/main.py) |
+| 23.6 | [Add the Scoreboard and Game Over Sequence](./D23-Turtle_Crossing_Capstone/23.6-Scoreboard/main.py) |
+
+<!-- ### D24 - ...
+
+| N˚ | Concept |
+| :- | :------ |
+| 24.1 | ... |
+| 24.2 | ... |
+| 24.3 | ... |
+| 24.4 | ... |
+| 24.5 | ... |
+| 24.6 | ... | -->
 
 
 

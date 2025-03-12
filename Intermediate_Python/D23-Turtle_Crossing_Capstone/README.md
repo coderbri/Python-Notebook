@@ -394,52 +394,84 @@ class CarManager:
         self.car_speed += MOVE_INCREMENT    # Gradually increase speed per level
 ```
 
-
-<!-- TODO:
 ---
 
 ## Update 6: Add the Scoreboard and Game Over Sequence
+**Date:** 20250310
 
-- add date
-- add objective
-    -  Create a scoreboard that keeps track of which level the user is on. Every time the turtle player does a successful crossing, the level should increase. When the turtle hits a car, GAME OVER should be displayed in the centre.
-- add steps made in the project
-- add code highlights
+**Objective:**
+- Create a scoreboard to track the player's level.
+- Increase the level each time the player successfully crosses the road.
+- Display "GAME OVER" in the center of the screen when the turtle collides with a car.
+
+### **Steps Taken:**
+- Implemented the `Scoreboard` class to manage level tracking and display updates.
+- Added `update_scoreboard()` to refresh the displayed level.
+- Created `increase_level()` to increment the level upon successful crossings.
+- Implemented `game_over()` to display a "GAME OVER" message when the player loses.
+- Integrated the scoreboard into `main.py`, ensuring updates occur upon level advancement and game-ending collisions.
+
+### **Code Highlights**
 
 #### `main.py`
 ```py
+from scoreboard import Scoreboard
+
+# Create Object instances
+scoreboard = Scoreboard()
+
+game_is_on = True
+while game_is_on:
+
+    # * 4. Detect when the Turtle Collides with a Car
+    for car in car_manager.all_cars:
+        if car.distance(player) < 20:
+            game_is_on = False
+            # * Display Game Over Message
+            scoreboard.game_over()
+
+    # * 5. Detect when the Player has reached the other side
+    if player.is_at_finish_line():
+        player.got_to_start()
+        car_manager.level_up()
+        # * Increase Scoreboard Level
+        scoreboard.increase_level()
 ```
 
-#### `player.py`
+#### `scoreboard.py`
 ```py
+from turtle import Turtle
+# Font configuration for scoreboard display
+FONT = ("Courier", 24, "normal")
+
+# * 6. Add the Scoreboard and Game Over Sequence
+class Scoreboard(Turtle):
+
+    def __init__(self):
+        super().__init__()
+        self.level = 1
+        self.color("#000")
+        self.penup()
+        self.goto(-280, 260)
+        self.hideturtle()
+        self.update_scoreboard()
+
+    def update_scoreboard(self):
+        """Refresh the displayed level on the screen."""
+        self.clear()
+        self.write(f"Level: {self.level}", align="left", font=FONT)
+
+    def increase_level(self):
+        """Increment the level count and update the scoreboard."""
+        self.level += 1
+        self.update_scoreboard()
+
+    def game_over(self):
+        """Display the 'GAME OVER' message at the center of the screen."""
+        self.goto(0, 0)
+        self.write("GAME OVER", align="center", font=FONT)
+
 ```
-
-#### `car_manager.py`
-```py
-```
-
--->
-
----
-
-## Upcoming Features:
-
-- [x] 1. Main Game Setup
-
-- [x] 2. Create the Player Behavior
-<!-- Create a turtle player that starts at the bottom of the screen and listen for the "Up" keypress to move the turtle north. -->
-
-- [x] 3. Create the Car Behavior
-<!-- Create cars that are 20px high by 40px wide that are randomly generated along the y-axis and move to the left edge of the screen. No cars should be generated in the top and bottom 50px of the screen (think of it as a safe zone for our little turtle). Hint: generate a new car only every 6th time the game loop runs. -->
-
-- [x] 4. Detect when the Turtle Collides with a Car (Game Over Logic)
-<!-- Detect when the turtle player collides with a car and stop the game if this happens. -->
-
-- [x] 5. Detect when the Player has reached the other side
-<!-- Detect when the turtle player has reached the top edge of the screen (i.e., reached the FINISH_LINE_Y). When this happens, return the turtle to the starting position and increase the speed of the cars. Hint: think about creating an attribute and using the MOVE_INCREMENT to increase the car speed. -->
-
-- [ ] 6. Add the Scoreboard and Game Over Sequence
-<!-- Create a scoreboard that keeps track of which level the user is on. Every time the turtle player does a successful crossing, the level should increase. When the turtle hits a car, GAME OVER should be displayed in the centre. -->
 
 ---
 
