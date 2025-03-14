@@ -87,16 +87,25 @@
 | 23.5 | [Detect when the Player has reached the other side](./D23-Turtle_Crossing_Capstone/23.5-Detect_Crossing_to_Other_Side/main.py) |
 | 23.6 | [Add the Scoreboard and Game Over Sequence](./D23-Turtle_Crossing_Capstone/23.6-Scoreboard/main.py) |
 
-<!-- ### D24 - ...
+<!-- ### D24 - Files, Directories, and Paths
 
 | N˚ | Concept |
 | :- | :------ |
-| 24.1 | ... |
-| 24.2 | ... |
-| 24.3 | ... |
-| 24.4 | ... |
-| 24.5 | ... |
-| 24.6 | ... | -->
+| 24.1 | [Add a High Score to the Snake Game](./D21-Snake_Game_Pt2/21.6-High_Score_Feature/main.py) |
+| 24.2 | How to Open, Read, and Write to Files using the *with* keyword |
+| 24.2.5 | Challenge: Read and Write the High Score to a File in Snake |
+| 24.3 | Understand Relative and Absolute Files Paths | -->
+
+<!-- ### D25 - ...
+
+| N˚ | Concept |
+| :- | :------ |
+| 25.1 | ... |
+| 25.2 | ... |
+| 25.3 | ... |
+| 25.4 | ... |
+| 25.5 | ... |
+| 25.6 | ... | -->
 
 
 
@@ -112,8 +121,9 @@
 | 20 | [Simple Snake Game](https://github.com/coderbri/20_Simple_Snake_Game.git) |
 | 21 | [Classic Snake Game](https://github.com/coderbri/21_Snake_Game.git) |
 | 22 | [Pong Game](https://github.com/coderbri/22_Pong.git) |
-| 23 | Turtle Crossing [Capstone Project] |
-| 24 | ... |
+| 23 | [Turtle Crossing [Capstone Project]](https://github.com/coderbri/23_Turtle_Crossing.git) |
+| 24 | Mail Merge |
+| 25 | ... |
 
 
 <!-- 

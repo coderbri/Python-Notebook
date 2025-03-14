@@ -42,7 +42,7 @@
 | D21 | [Recreating the Snake Game, Part II](./Intermediate_Python/D21-Snake_Game_Pt2/) | Intermediate |
 | D22 | [Build Pong: The Famous Arcade Game](./Intermediate_Python/D22-Pong_Game/) | Intermediate |
 | D23 | [Capstone Project: Turtle Crossing](./Intermediate_Python/D23-Turtle_Crossing_Capstone/) | Intermediate |
-| D24 | ... | Intermediate |
+| D24 | Files, Directories, and Paths | Intermediate |
 | D25 | ... | Intermediate |
 | D26 | ... | Intermediate |
 | D27 | ... | Intermediate |
@@ -75,8 +75,8 @@
 | 20 | [Simple Snake Game](https://github.com/coderbri/20_Simple_Snake_Game.git) | Intermediate |
 | 21 | [Classic Snake Game](https://github.com/coderbri/21_Snake_Game.git) | Intermediate |
 | 22 | [Pong Game](https://github.com/coderbri/22_Pong.git) | Intermediate |
-| 23 | Turtle Crossing [Capstone Project] | Intermediate |
-| 24 | ... | Intermediate |
+| 23 | [Turtle Crossing [Capstone Project]](https://github.com/coderbri/23_Turtle_Crossing.git) | Intermediate |
+| 24 | Mail Merge | Intermediate |
 | 25 | ... | Intermediate |
 | 26 | ... | Intermediate |
 | 27 | ... | Intermediate |
@@ -86,5 +86,5 @@ Course Duration: 2024.10.04 - present
 
 ---
 <section align="center">
-  <code>coderBri © 2024</code>
+  <code>coderBri © 2025</code>
 </section>
