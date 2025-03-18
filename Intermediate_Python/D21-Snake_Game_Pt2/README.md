@@ -462,6 +462,48 @@ class Snake:
 
 ---
 
+## Update 9: Read and Write the High Score to a File in Snake
+
+**Date:** 20250318
+
+**Objective:**  Implement persistent high score tracking by reading from and writing to a file, ensuring the highest score is saved across game sessions.
+
+### Steps Completed:
+1. **Implemented `with open()`** to handle file operations efficiently.
+2. **Created `data.txt`** in the project root directory to store the highest score achieved.
+3. **Added error handling** in `scoreboard.py` to initialize the high score to `0` if `data.txt` does not exist.
+4. **Ensured automatic score persistence**—the game now saves the high score at the end of each session and loads it at the start of the next session.
+
+
+### Code Highlights
+
+#### `scoreboard.py`
+```py
+class Scoreboard(Turtle):
+
+    def __init__(self):
+        super().__init__()
+        self.score = 0
+        # ? Load high score from file; default to 0 if file is missing
+        try:
+            with open("data.txt") as data:
+                self.high_score = int(data.read())
+        except FileNotFoundError:
+            self.high_score = 0
+        # ...
+    
+    def reset(self):
+        """Resets the current score and updates the high score if a new record is reached."""
+        if self.score > self.high_score:
+            self.high_score = self.score
+            # ? Save the new high score to the file
+            with open("data.txt", "w") as data:
+                data.write(f"{self.high_score}")
+        self.score = 0
+        self.update_scoreboard()
+```
+---
+
 ## Acknowledgments
 
 This project was built as part of a Python learning journey through Dr. Angela Yu’s **100 Days of Code: Python Pro Bootcamp.**
