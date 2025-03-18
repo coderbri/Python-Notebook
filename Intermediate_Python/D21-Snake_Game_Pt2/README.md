@@ -370,4 +370,103 @@ The Food class inherits from the Turtle class, allowing it to use all the built-
       self.head.forward(MOVE_DISTANCE)
   ```
 
+
 ---
+
+## Update 8: Adding a High Score Feature
+
+**Date:** 20250314
+
+**Objective:** Implement a high score feature and enhance the user experience with improved snake movement.
+
+### Steps Completed:
+1. Changed movement controls from arrow keys to W-A-S-D for a more natural user experience.
+2. Added high score tracking to retain the highest score across sessions.
+   - The game no longer terminates upon collision.
+3. Instead of ending the game when the snake collides with a wall or its own tail, a new three-segment snake will respawn.
+
+### Code Highlights
+
+#### `main.py`
+```py
+# 3. Control the Snake (UPDATED: Using W-A-S-D instead of arrow keys)
+screen.listen()
+screen.onkeypress(snake.move_up, "w")
+screen.onkeypress(snake.move_down, "s")
+screen.onkeypress(snake.move_left, "a")
+screen.onkeypress(snake.move_right, "d")
+
+game_is_on = True
+while game_is_on:
+    # 6. Detect collision with wall (Reset Game State)
+    if (
+        snake.head.xcor() > 280
+        or snake.head.xcor() < -280
+        or snake.head.ycor() > 280
+        or snake.head.ycor() < -280
+    ):
+        scoreboard.reset()  # Retains high score, resets current score
+        snake.reset()       # Restart with a new snake
+
+    # 7. Detect collision with tail
+    for segment in snake.segments[1:]:  # Skips the head
+        if snake.head.distance(segment) < 10:
+            scoreboard.reset()  # Keep the highest score, reset the base score
+            snake.reset()       # Restart with a new snake
+```
+
+#### `scoreboard.py`
+```py
+class Scoreboard(Turtle):
+
+    def __init__(self):
+        super().__init__()
+        self.score = 0          # Starting score
+        self.high_score = 0     # Highest score
+        self.color("white")     # Score text color
+        self.penup()            # Prevent drawing lines when moving
+        self.goto(0, 270)       # Position scoreboard at the top of the screen
+        self.hideturtle()       # Hide the turtle icon
+        self.update_scoreboard()  # Display initial score
+
+    def update_scoreboard(self):
+        """Clears previous score and updates the display with the current score and high score."""
+        self.clear()
+        self.write(f"Score: {self.score} | High Score: {self.high_score}", align=ALIGNMENT, font=FONT)
+
+    # 8. Retain Highest Score
+    def reset(self):
+        """Resets the current score and updates the high score if a new record is reached."""
+        if self.score > self.high_score:
+            self.high_score = self.score
+        self.score = 0
+        self.update_scoreboard()
+
+    def increase_score(self):
+        """Increases the score by 1 and refreshes the scoreboard display."""
+        self.score += 1
+        self.update_scoreboard()
+```
+
+#### `snake.py`
+```py
+class Snake:
+    def reset(self):
+        """Resets the snake by clearing all segments and recreating it from the start."""
+        for seg in self.segments:
+            seg.goto(1000, 1000)  # Move old segments off-screen
+        self.segments.clear()     # Remove all segments from the list
+        self.create_snake()       # Recreate the initial snake
+        self.head = self.segments[0]  # Reset the head reference
+```
+
+---
+
+## Acknowledgments
+
+This project was built as part of a Python learning journey through Dr. Angela Yu’s **100 Days of Code: Python Pro Bootcamp.**
+
+---
+<section align="center">
+  <code>coderBri © 2025</code>
+</section>
