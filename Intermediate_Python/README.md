@@ -93,8 +93,8 @@
 | :- | :------ |
 | 24.1 | [Add a High Score to the Snake Game](./D21-Snake_Game_Pt2/21.6-High_Score_Feature/main.py) |
 | 24.2 | [How to Open, Read, and Write to Files using the *with* keyword](./D24-Files_Directories_Paths/24.2-File_Management_with_Python/main.py) |
-| 24.2.5 | Challenge: Read and Write the High Score to a File in Snake |
-| 24.3 | Understand Relative and Absolute Files Paths |
+| 24.2.5 | [Challenge: Read and Write the High Score to a File in Snake](./D21-Snake_Game_Pt2/21.7-Tracking_High_Score/main.py) |
+| 24.3 | [Understand Relative and Absolute Files Paths](./D24-Files_Directories_Paths/24.3-Relative_and_Absolute_File_Paths/main.py) |
 
 <!-- ### D25 - ...
 

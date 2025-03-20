@@ -42,7 +42,7 @@
 | D21 | [Recreating the Snake Game, Part II](./Intermediate_Python/D21-Snake_Game_Pt2/) | Intermediate |
 | D22 | [Build Pong: The Famous Arcade Game](./Intermediate_Python/D22-Pong_Game/) | Intermediate |
 | D23 | [Capstone Project: Turtle Crossing](./Intermediate_Python/D23-Turtle_Crossing_Capstone/) | Intermediate |
-| D24 | Files, Directories, and Paths | Intermediate |
+| D24 | [Files, Directories, and Paths](./Intermediate_Python/D24-Files_Directories_Paths/) | Intermediate |
 | D25 | ... | Intermediate |
 | D26 | ... | Intermediate |
 | D27 | ... | Intermediate |
