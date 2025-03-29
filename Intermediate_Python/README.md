@@ -95,17 +95,30 @@
 | 24.2 | [How to Open, Read, and Write to Files using the *with* keyword](./D24-Files_Directories_Paths/24.2-File_Management_with_Python/main.py) |
 | 24.2.5 | [Challenge: Read and Write the High Score to a File in Snake](./D21-Snake_Game_Pt2/21.7-Tracking_High_Score/main.py) |
 | 24.3 | [Understand Relative and Absolute Files Paths](./D24-Files_Directories_Paths/24.3-Relative_and_Absolute_File_Paths/main.py) |
+| 24.4 | [Mail Merge](./D24-Files_Directories_Paths/24.4-Mail_Merge/main.py) |
 
-<!-- ### D25 - ...
+### D25 - Working with CSV Data and the Pandas Library
 
 | N˚ | Concept |
 | :- | :------ |
-| 25.1 | ... |
-| 25.2 | ... |
-| 25.3 | ... |
-| 25.4 | ... |
-| 25.5 | ... |
-| 25.6 | ... | -->
+| 25.1 | [Reading CSV Data in Python](./D25-CSV_Data_and_Pandas/25.1-Reading_CSV_Data_in_Python/main.py) |
+| 25.2 | [DataFrames & Series: Working with Rows & Columns](./D25-CSV_Data_and_Pandas/25.2-DataFrames_and_Series/main.py) |
+| 25.3 | [The Great Squirrel Census Data Analysis (with Pandas!)](./D25-CSV_Data_and_Pandas/25.3-Squirrel_Data_Analysis/main.py) |
+| 25.4 | U.S. States Game |
+| 25.4.1 | Game Setup |
+| 25.4.2 | Challenge with `.csv` |
+| 25.4.3 | Saving Data to `.csv` |
+
+<!-- ### D26 - ...
+
+| N˚ | Concept |
+| :- | :------ |
+| 26.1 | ... |
+| 26.2 | ... |
+| 26.3 | ... |
+| 26.4 | ... |
+| 26.5 | ... |
+| 26.6 | ... | -->
 
 
 
@@ -122,8 +135,10 @@
 | 21 | [Classic Snake Game](https://github.com/coderbri/21_Snake_Game.git) |
 | 22 | [Pong Game](https://github.com/coderbri/22_Pong.git) |
 | 23 | [Turtle Crossing [Capstone Project]](https://github.com/coderbri/23_Turtle_Crossing.git) |
-| 24 | Mail Merge |
-| 25 | ... |
+| 24 | [Mail Merge](https://github.com/coderbri/24_Mail_Merge.git) |
+| 25 | U.S. States Game |
+| 26 | ... |
+| 27 | ... |
 
 
 <!-- 
