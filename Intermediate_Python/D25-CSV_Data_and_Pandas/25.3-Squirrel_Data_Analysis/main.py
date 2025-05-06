@@ -1,7 +1,7 @@
 import pandas
 
 # Read the squirrel census data from CSV
-data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.")
+data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
 
 # TODO: Create a DataFrame summarizing the count of squirrels based on their primary fur color.
 # The output should list each fur color along with the corresponding total count.
