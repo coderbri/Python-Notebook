@@ -44,8 +44,9 @@
 | D23 | [Capstone Project: Turtle Crossing](./Intermediate_Python/D23-Turtle_Crossing_Capstone/) | Intermediate |
 | D24 | [Files, Directories, and Paths](./Intermediate_Python/D24-Files_Directories_Paths/) | Intermediate |
 | D25 | [Working with CSV Data and the Pandas Library](./Intermediate_Python/D25-CSV_Data_and_Pandas/) | Intermediate |
-| D26 | ... | Intermediate |
-| D27 | ... | Intermediate |
+| D26 | List Comprehension & the NATO Alphabet | Intermediate |
+| D27 | Tkinter, *args, **kwargs & Creating GUI Programs | Intermediate |
+| D28 | ... | Intermediate |
 
 
 
@@ -77,7 +78,7 @@
 | 22 | [Pong Game](https://github.com/coderbri/22_Pong.git) | Intermediate |
 | 23 | [Turtle Crossing [Capstone Project]](https://github.com/coderbri/23_Turtle_Crossing.git) | Intermediate |
 | 24 | [Mail Merge](https://github.com/coderbri/24_Mail_Merge.git) | Intermediate |
-| 25 | U.S. States Game | Intermediate |
+| 25 | [U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) | Intermediate |
 | 26 | ... | Intermediate |
 | 27 | ... | Intermediate |
 | 28 | ... | Intermediate |

@@ -104,10 +104,6 @@
 | 25.1 | [Reading CSV Data in Python](./D25-CSV_Data_and_Pandas/25.1-Reading_CSV_Data_in_Python/main.py) |
 | 25.2 | [DataFrames & Series: Working with Rows & Columns](./D25-CSV_Data_and_Pandas/25.2-DataFrames_and_Series/main.py) |
 | 25.3 | [The Great Squirrel Census Data Analysis (with Pandas!)](./D25-CSV_Data_and_Pandas/25.3-Squirrel_Data_Analysis/main.py) |
-| 25.4 | U.S. States Game |
-| 25.4.1 | Game Setup |
-| 25.4.2 | Challenge with `.csv` |
-| 25.4.3 | Saving Data to `.csv` |
 
 <!-- ### D26 - ...
 
@@ -136,7 +132,7 @@
 | 22 | [Pong Game](https://github.com/coderbri/22_Pong.git) |
 | 23 | [Turtle Crossing [Capstone Project]](https://github.com/coderbri/23_Turtle_Crossing.git) |
 | 24 | [Mail Merge](https://github.com/coderbri/24_Mail_Merge.git) |
-| 25 | U.S. States Game |
+| 25 | [U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) |
 | 26 | ... |
 | 27 | ... |
 
