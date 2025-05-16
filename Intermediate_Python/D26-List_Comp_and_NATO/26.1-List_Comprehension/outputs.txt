@@ -1,0 +1,8 @@
+CE1 - Squaring Numbers
+Output: [1, 1, 4, 9, 25, 64, 169, 441, 1156, 3025]
+
+CE2 - Filtering Even Numbers
+Output: [0, 32, 8, 2, 8, 64, 42]
+
+CE3 - Data Overlap
+Output: [3, 6, 5, 33, 12, 7, 42, 13]
