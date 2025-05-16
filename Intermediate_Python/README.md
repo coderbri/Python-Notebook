@@ -105,16 +105,30 @@
 | 25.2 | [DataFrames & Series: Working with Rows & Columns](./D25-CSV_Data_and_Pandas/25.2-DataFrames_and_Series/main.py) |
 | 25.3 | [The Great Squirrel Census Data Analysis (with Pandas!)](./D25-CSV_Data_and_Pandas/25.3-Squirrel_Data_Analysis/main.py) |
 
-<!-- ### D26 - ...
+### D26 - List Comprehension & the NATO Alphabet
 
 | N˚ | Concept |
 | :- | :------ |
-| 26.1 | ... |
-| 26.2 | ... |
-| 26.3 | ... |
-| 26.4 | ... |
-| 26.5 | ... |
-| 26.6 | ... | -->
+| 26.1 | [How to Create Lists using List Comprehension](./D26-List_Comp_and_NATO/26.1-List_Comprehension/main.py) |
+| 26.1.1 | Coding Exercise: Squaring Numbers |
+| 26.1.2 | Coding Exercise: Filtering Even Numbers |
+| 26.1.3 | Coding Exercise: Data Overlap |
+| 26.2 | Apply List Comprehension to the U.S. States Game |
+| 26.3 | How to use Dictionary Comprehension |
+| 26.3.1 | Coding Exercise: Dictionary Comprehension 1 |
+| 26.3.2 | Coding Exercise: Dictionary Comprehension 2 |
+| 26.4 | 26.4 How to iterate over a Pandas DataFrame |
+
+<!-- ### D27 - ...
+
+| N˚ | Concept |
+| :- | :------ |
+| 27.1 | ... |
+| 27.2 | ... |
+| 27.3 | ... |
+| 27.4 | ... |
+| 27.5 | ... |
+| 27.6 | ... | -->
 
 
 
