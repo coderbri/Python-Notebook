@@ -113,8 +113,8 @@
 | 26.1.1 | [Coding Exercise: Squaring Numbers](./D26-List_Comp_and_NATO/26.1-List_Comprehension/CE1_squaring_numbers.py) |
 | 26.1.2 | [Coding Exercise: Filtering Even Numbers](./D26-List_Comp_and_NATO/26.1-List_Comprehension/CE2_even_numbers.py) |
 | 26.1.3 | [Coding Exercise: Data Overlap](./D26-List_Comp_and_NATO/26.1-List_Comprehension/CE3_data_overlap/exercise.py) |
-| 26.2 | Apply List Comprehension to the U.S. States Game |
-| 26.3 | How to use Dictionary Comprehension |
+| 26.2 | [Apply List Comprehension to the U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) |
+| 26.3 | [How to use Dictionary Comprehension](./D26-List_Comp_and_NATO/26.3-Dictionary_Comprehension/main.py) |
 | 26.3.1 | Coding Exercise: Dictionary Comprehension 1 |
 | 26.3.2 | Coding Exercise: Dictionary Comprehension 2 |
 | 26.4 | 26.4 How to iterate over a Pandas DataFrame |
