@@ -115,9 +115,9 @@
 | 26.1.3 | [Coding Exercise: Data Overlap](./D26-List_Comp_and_NATO/26.1-List_Comprehension/CE3_data_overlap/exercise.py) |
 | 26.2 | [Apply List Comprehension to the U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) |
 | 26.3 | [How to use Dictionary Comprehension](./D26-List_Comp_and_NATO/26.3-Dictionary_Comprehension/main.py) |
-| 26.3.1 | Coding Exercise: Dictionary Comprehension 1 |
-| 26.3.2 | Coding Exercise: Dictionary Comprehension 2 |
-| 26.4 | 26.4 How to iterate over a Pandas DataFrame |
+| 26.3.1 | [Coding Exercise: Dictionary Comprehension 1](./D26-List_Comp_and_NATO/26.3-Dictionary_Comprehension/CE1_dict_comprehension.py) |
+| 26.3.2 | [Coding Exercise: Dictionary Comprehension 2](./D26-List_Comp_and_NATO/26.3-Dictionary_Comprehension/CE2_dict_comprehension2.py) |
+| 26.4 | [26.4 How to iterate over a Pandas DataFrame](./D26-List_Comp_and_NATO/26.4-Iterate_over_Pandas_DataFrame/main.py) |
 
 <!-- ### D27 - ...
 

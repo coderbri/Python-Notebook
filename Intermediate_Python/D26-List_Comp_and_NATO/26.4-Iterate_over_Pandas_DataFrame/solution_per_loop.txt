@@ -1,0 +1,62 @@
+1. Looping through dictionaries
+# print(f"{key} => {value}") ---------------
+student => ['Ava', 'Bethany', 'Catherine']
+score => [56, 76, 98]
+
+
+2. Looping through a DataFrame
+# print(key) -------------------------------
+student
+score
+
+# print(value) -----------------------------
+=== Loop 1 ===
+0          Ava
+1      Bethany
+2    Catherine
+Name: student, dtype: object
+
+=== Loop 2 ===
+0    56
+1    76
+2    98
+Name: score, dtype: int64
+
+
+3. Looping through rows of a dataframe
+# print(index) -----------------------------
+0
+1
+2
+
+# print(row) -------------------------------
+student    Ava
+score       56
+Name: 0, dtype: object
+
+student    Bethany
+score           76
+Name: 1, dtype: object
+
+student    Catherine
+score             98
+Name: 2, dtype: object
+
+# print(row.student) -----------------------
+Ava
+Bethany
+Catherine
+
+# print(row.score) -------------------------
+56
+76
+98
+
+if row.student == "Ava": -------------------
+    print(f"Ava's score: {row.score}")
+else:
+    print("- Access denied -")
+--------------------------------------------
+Ava's score: 56
+- Access denied -
+- Access denied -
