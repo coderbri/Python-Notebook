@@ -45,7 +45,7 @@
 | D24 | [Files, Directories, and Paths](./Intermediate_Python/D24-Files_Directories_Paths/) | Intermediate |
 | D25 | [Working with CSV Data and the Pandas Library](./Intermediate_Python/D25-CSV_Data_and_Pandas/) | Intermediate |
 | D26 | [List Comprehension & the NATO Alphabet](./Intermediate_Python/D26-List_Comp_and_NATO/) | Intermediate |
-| D27 | Tkinter, *args, **kwargs & Creating GUI Programs | Intermediate |
+| D27 | [Tkinter, *args, **kwargs & Creating GUI Programs](./Intermediate_Python/D27-Tkinter_GUI_Programs/) | Intermediate |
 | D28 | Tkinter, Dynamic Typing and the Pomodoro GUI Application | Intermediate |
 | D29 | Building a Password Manager GUI App with Tkinter | Intermediate |
 | D30 | ... | Intermediate |
@@ -81,7 +81,7 @@
 | 23 | [Turtle Crossing [Capstone Project]](https://github.com/coderbri/23_Turtle_Crossing.git) | Intermediate |
 | 24 | [Mail Merge](https://github.com/coderbri/24_Mail_Merge.git) | Intermediate |
 | 25 | [U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) | Intermediate |
-| 26 | NATO Alphabet Project | Intermediate |
+| 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) | Intermediate |
 | 27 | ... | Intermediate |
 | 28 | ... | Intermediate |
 

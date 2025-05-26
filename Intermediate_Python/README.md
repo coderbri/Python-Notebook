@@ -119,16 +119,29 @@
 | 26.3.2 | [Coding Exercise: Dictionary Comprehension 2](./D26-List_Comp_and_NATO/26.3-Dictionary_Comprehension/CE2_dict_comprehension2.py) |
 | 26.4 | [26.4 How to iterate over a Pandas DataFrame](./D26-List_Comp_and_NATO/26.4-Iterate_over_Pandas_DataFrame/main.py) |
 
-<!-- ### D27 - ...
+### D27 - Tkinter, *args, **kwargs & Creating GUI Programs
 
 | N˚ | Concept |
 | :- | :------ |
-| 27.1 | ... |
-| 27.2 | ... |
-| 27.3 | ... |
-| 27.4 | ... |
-| 27.5 | ... |
-| 27.6 | ... | -->
+| 27.1 | **History of GUI and Introduction to Tkinter** |
+| 27.2 | [Creating Windows and Labels with Tkinter](./D27-Tkinter_GUI_Programs/27.1-Creating_Windows_with_Tkinter/main.py) |
+| 27.3 | **Setting Default Values for Optional Arguments inside a Function Header** |
+| 27.4 | `*args`: Many Positional Arguments |
+| 27.5 | `**kwargs`: Many Keyword Arguments |
+| 27.6 | Buttons, Entry, and Setting Component Options |
+| 27.7 | Other Tkinter Widgets: Radiobuttons, Scales, Checkbuttons, and more |
+| 27.8 | Tkinter Layout Managers: `pack()`, `place()`, and `grid()` |
+
+<!-- ### D28 - ...
+
+| N˚ | Concept |
+| :- | :------ |
+| 28.1 | ... |
+| 28.2 | ... |
+| 28.3 | ... |
+| 28.4 | ... |
+| 28.5 | ... |
+| 28.6 | ... | -->
 
 
 
@@ -147,8 +160,9 @@
 | 23 | [Turtle Crossing [Capstone Project]](https://github.com/coderbri/23_Turtle_Crossing.git) |
 | 24 | [Mail Merge](https://github.com/coderbri/24_Mail_Merge.git) |
 | 25 | [U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) |
-| 26 | ... |
+| 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) |
 | 27 | ... |
+| 28 | ... |
 
 
 <!-- 
