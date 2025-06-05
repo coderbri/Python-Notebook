@@ -35,3 +35,10 @@ calculate(2, add=3, multiply=5)
 #
 # Value for 'add' key: 3
 # Calculated result: 25 (Calculation: (2 + 3) * 5)
+
+# * Another Example
+def all_aboard(a, *args, **kw):
+    print(a, args, kw)
+
+all_aboard(4, 7, 3, 0, x=10, y=64)
+# Output: 4 (7, 3, 0) {'x': 10, 'y': 64}
