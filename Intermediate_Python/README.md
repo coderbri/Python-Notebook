@@ -126,8 +126,8 @@
 | 27.1 | **History of GUI and Introduction to Tkinter** |
 | 27.2 | [Creating Windows and Labels with Tkinter](./D27-Tkinter_GUI_Programs/27.1-Creating_Windows_with_Tkinter/main.py) |
 | 27.3 | **Setting Default Values for Optional Arguments inside a Function Header** |
-| 27.4 | `*args`: Many Positional Arguments |
-| 27.5 | `**kwargs`: Many Keyword Arguments |
+| 27.4 | [`*args`: Many Positional Arguments](./D27-Tkinter_GUI_Programs/27.4-Using_args/playground.py) |
+| 27.5 | [`**kwargs`: Many Keyword Arguments](./D27-Tkinter_GUI_Programs/27.5-Using_kwargs/playground.py) |
 | 27.6 | Buttons, Entry, and Setting Component Options |
 | 27.7 | Other Tkinter Widgets: Radiobuttons, Scales, Checkbuttons, and more |
 | 27.8 | Tkinter Layout Managers: `pack()`, `place()`, and `grid()` |
