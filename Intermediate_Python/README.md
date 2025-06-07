@@ -128,7 +128,7 @@
 | 27.3 | **Setting Default Values for Optional Arguments inside a Function Header** |
 | 27.4 | [`*args`: Many Positional Arguments](./D27-Tkinter_GUI_Programs/27.4-Using_args/playground.py) |
 | 27.5 | [`**kwargs`: Many Keyword Arguments](./D27-Tkinter_GUI_Programs/27.5-Using_kwargs/playground.py) |
-| 27.6 | Buttons, Entry, and Setting Component Options |
+| 27.6 | [Buttons, Entry, and Setting Component Options](./D27-Tkinter_GUI_Programs/27.6-Buttons_Entry_Setting_Component_Options/main.py) |
 | 27.7 | Other Tkinter Widgets: Radiobuttons, Scales, Checkbuttons, and more |
 | 27.8 | Tkinter Layout Managers: `pack()`, `place()`, and `grid()` |
 
