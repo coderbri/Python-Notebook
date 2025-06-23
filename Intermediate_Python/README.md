@@ -130,7 +130,7 @@
 | 27.5 | [`**kwargs`: Many Keyword Arguments](./D27-Tkinter_GUI_Programs/27.5-Using_kwargs/playground.py) |
 | 27.6 | [Buttons, Entry, and Setting Component Options](./D27-Tkinter_GUI_Programs/27.6-Buttons_Entry_Setting_Component_Options/main.py) |
 | 27.7 | [Other Tkinter Widgets: Radiobuttons, Scales, Checkbuttons, and more](./D27-Tkinter_GUI_Programs/27.7-More_Tkinter_Widgets/main.py) |
-| 27.8 | Tkinter Layout Managers: `pack()`, `place()`, and `grid()` |
+| 27.8 | [Tkinter Layout Managers: `pack()`, `place()`, and `grid()`](./D27-Tkinter_GUI_Programs/27.8-Tkinter_Layout_Managers/main.py) |
 
 <!-- ### D28 - ...
 
@@ -161,7 +161,7 @@
 | 24 | [Mail Merge](https://github.com/coderbri/24_Mail_Merge.git) |
 | 25 | [U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) |
 | 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) |
-| 27 | ... |
+| 27 | Mile to Km Converter |
 | 28 | ... |
 
 

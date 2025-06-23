@@ -82,7 +82,7 @@
 | 24 | [Mail Merge](https://github.com/coderbri/24_Mail_Merge.git) | Intermediate |
 | 25 | [U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) | Intermediate |
 | 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) | Intermediate |
-| 27 | ... | Intermediate |
+| 27 | Mile to Km Converter | Intermediate |
 | 28 | ... | Intermediate |
 
 Course Duration: 2024.10.04 - present
