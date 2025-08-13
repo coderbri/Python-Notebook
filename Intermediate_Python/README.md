@@ -132,16 +132,28 @@
 | 27.7 | [Other Tkinter Widgets: Radiobuttons, Scales, Checkbuttons, and more](./D27-Tkinter_GUI_Programs/27.7-More_Tkinter_Widgets/main.py) |
 | 27.8 | [Tkinter Layout Managers: `pack()`, `place()`, and `grid()`](./D27-Tkinter_GUI_Programs/27.8-Tkinter_Layout_Managers/main.py) |
 
-<!-- ### D28 - ...
+### D28 - Tkinter, Dynamic Typing and the Pomodoro GUI Application
 
 | N˚ | Concept |
 | :- | :------ |
-| 28.1 | ... |
-| 28.2 | ... |
-| 28.3 | ... |
-| 28.4 | ... |
-| 28.5 | ... |
-| 28.6 | ... | -->
+| 28.1 | [How to work with the Canvas Widget and Add Images to Tkinter](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.1-Canvas_Widget_and_Adding_Images/main.py) |
+| 28.1.5 | Challenge: Complete the Application’s User Interface (UI) |
+| 28.2 | Add a Count Down Mechanism |
+| 28.3 | Dynamic Typing Explained |
+| 28.4 | Setting Different Timers Sessions and Values |
+| 28.5 | Adding Checkmarks and Resetting the Application |
+
+
+<!-- ### D29 - ...
+
+| N˚ | Concept |
+| :- | :------ |
+| 29.1 | ... |
+| 29.2 | ... |
+| 29.3 | ... |
+| 29.4 | ... |
+| 29.5 | ... |
+| 29.6 | ... | -->
 
 
 
@@ -162,7 +174,8 @@
 | 25 | [U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) |
 | 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) |
 | 27 | [Mile to Km Converter](https://github.com/coderbri/27_Mile_to_Km_Converter.git) |
-| 28 | ... |
+| 28 | Pomodoro Timer |
+| 29 | ... |
 
 
 <!-- 
