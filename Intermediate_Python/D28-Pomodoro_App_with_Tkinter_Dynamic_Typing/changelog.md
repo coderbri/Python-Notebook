@@ -1,6 +1,6 @@
 # 28 Pomodoro Timer - Changelog
 
-## v0.1
+## v0.1.0
 
 - Created main Tkinter window: Initialized a `Tk` instance, set the title to "Pomodoro Timer", and configured background color and padding for layout spacing.
 - Implemented Canvas widget: Used `Canvas` to layer elements, enabling placement of an image and text together in one area of the UI.
@@ -30,4 +30,26 @@
 
 ---
 
-[//]: # (## v0.2)
+## v0.2.0
+
+- Implemented countdown mechanism: Added `countdown()` function using `window.after` to update the timer every second.
+    <div align="center">
+    <img src="./imgs/pomodoro_v2_countdown_test.gif"
+        alt="First countdown test."
+        width="450px" height="auto">
+    </div>
+
+- Converted seconds to minutes/seconds: Used `math.floor` and modulus to calculate minutes and remaining seconds.
+- Added formatted time display: Ensured seconds always display two digits (e.g., `05` instead of `5`).
+- Linked Start button to timer: Configured `command=start_timer` to trigger countdown when pressed.
+- Stored timer text as variable: Allowed dynamic updates to the Canvas text instead of a static display.
+
+<div align="center">
+<img src="./imgs/pomodoro_v2_1_countdown_test.gif"
+    alt="First countdown test with adjusted formatting and 'Start' button logic."
+    width="450px" height="auto">
+</div>
+
+---
+
+[//]: # (## v0.2.1)
