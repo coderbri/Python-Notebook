@@ -23,7 +23,7 @@
     width="450px" height="auto">
 </div>
 <div align="center">
-<img src="./imgs/pomodoro_v0_1.png"
+<img src="./imgs/pomodoro_v1.png"
     alt="Rough sketch of grid layout for Pomodoro App."
     width="450px" height="auto">
 </div>
