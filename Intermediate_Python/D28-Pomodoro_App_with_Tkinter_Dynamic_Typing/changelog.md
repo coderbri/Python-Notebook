@@ -46,10 +46,21 @@
 
 <div align="center">
 <img src="./imgs/pomodoro_v2_1_countdown_test.gif"
-    alt="First countdown test with adjusted formatting and 'Start' button logic."
+    alt="Countdown test with adjusted formatting and 'Start' button logic."
     width="450px" height="auto">
 </div>
 
 ---
 
-[//]: # (## v0.2.1)
+## v0.2.1
+
+- Improved time formatting: Ensured countdown always shows `MM:SS` format by padding single-digit seconds with a leading zero.
+- Refined `countdown()` display logic: Replaced raw seconds with formatted output for better readability.
+
+<div align="center">
+<img src="./imgs/pomodoro_v3_dynamic_countdown_test.gif"
+    alt="Countdown test with proper `MM:SS` formatting."
+    width="450px" height="auto">
+</div>
+
+[//]: # (## v0.3.0)

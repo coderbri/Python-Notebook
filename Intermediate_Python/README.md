@@ -139,7 +139,7 @@
 | 28.1 | [How to work with the Canvas Widget and Add Images to Tkinter](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.1-Canvas_Widget_and_Adding_Images/main.py) |
 | 28.1.5 | Challenge: Complete the Application’s User Interface (UI) |
 | 28.2 | [Add a Count Down Mechanism](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.2-Countdown_Mechanism/main.py) |
-| 28.3 | Dynamic Typing Explained |
+| 28.3 | [Dynamic Typing Explained](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.3-Dynamic_Typing_Explained/main.py) |
 | 28.4 | Setting Different Timers Sessions and Values |
 | 28.5 | Adding Checkmarks and Resetting the Application |
 
