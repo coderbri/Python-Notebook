@@ -140,7 +140,7 @@
 | 28.1.5 | Challenge: Complete the Application’s User Interface (UI) |
 | 28.2 | [Add a Count Down Mechanism](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.2-Countdown_Mechanism/main.py) |
 | 28.3 | [Dynamic Typing Explained](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.3-Dynamic_Typing_Explained/main.py) |
-| 28.4 | Setting Different Timers Sessions and Values |
+| 28.4 | [Setting Different Timers Sessions and Values](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.4-Setting_Timer_Sessions_and_Values/main.py) |
 | 28.5 | Adding Checkmarks and Resetting the Application |
 
 

@@ -63,4 +63,21 @@
     width="450px" height="auto">
 </div>
 
-[//]: # (## v0.3.0)
+---
+
+## v0.3.0
+
+- Added work/break session logic: Introduced a session counter to alternate between work sessions, short breaks, and long breaks.
+- Implemented session switching: Used `if` conditions with modulo arithmetic (`reps % 8 == 0`) to determine long breaks every 8th rep, short breaks otherwise.
+- Updated title label dynamically: Changed label text and color to reflect whether it’s “Work,” “Short Break,” or “Long Break.”
+- Automated session flow: Configured `start_timer()` to restart the next session automatically when countdown reaches zero.
+
+<div align="center">
+<img src="./imgs/pomodoro_v4_work_break_cycle_test.gif"
+    alt="Countdown test with proper `MM:SS` formatting."
+    width="450px" height="auto">
+</div>
+
+---
+
+[//]: # (## v0.3.1)
