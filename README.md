@@ -46,7 +46,7 @@
 | D25 | [Working with CSV Data and the Pandas Library](./Intermediate_Python/D25-CSV_Data_and_Pandas/) | Intermediate |
 | D26 | [List Comprehension & the NATO Alphabet](./Intermediate_Python/D26-List_Comp_and_NATO/) | Intermediate |
 | D27 | [Tkinter, *args, **kwargs & Creating GUI Programs](./Intermediate_Python/D27-Tkinter_GUI_Programs/) | Intermediate |
-| D28 | Tkinter, Dynamic Typing and the Pomodoro GUI Application | Intermediate |
+| D28 | [Tkinter, Dynamic Typing and the Pomodoro GUI Application](./Intermediate_Python/D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/) | Intermediate |
 | D29 | Building a Password Manager GUI App with Tkinter | Intermediate |
 | D30 | ... | Intermediate |
 
@@ -83,7 +83,8 @@
 | 25 | [U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) | Intermediate |
 | 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) | Intermediate |
 | 27 | [Mile to Km Converter](https://github.com/coderbri/27_Mile_to_Km_Converter.git) | Intermediate |
-| 28 | ... | Intermediate |
+| 28 | [Pomodoro Timer](https://github.com/coderbri/28_Pomodoro_Timer.git) | Intermediate |
+| 29 | ... | Intermediate |
 
 Course Duration: 2024.10.04 - present
 

@@ -141,7 +141,7 @@
 | 28.2 | [Add a Count Down Mechanism](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.2-Countdown_Mechanism/main.py) |
 | 28.3 | [Dynamic Typing Explained](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.3-Dynamic_Typing_Explained/main.py) |
 | 28.4 | [Setting Different Timers Sessions and Values](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.4-Setting_Timer_Sessions_and_Values/main.py) |
-| 28.5 | Adding Checkmarks and Resetting the Application |
+| 28.5 | [Adding Checkmarks and Resetting the Application](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.5-Adding_Checkmarks_and_Reset/main.py) |
 
 
 <!-- ### D29 - ...
@@ -174,7 +174,7 @@
 | 25 | [U.S. States Game](https://github.com/coderbri/25_United_States_Game.git) |
 | 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) |
 | 27 | [Mile to Km Converter](https://github.com/coderbri/27_Mile_to_Km_Converter.git) |
-| 28 | Pomodoro Timer |
+| 28 | [Pomodoro Timer](https://github.com/coderbri/28_Pomodoro_Timer.git) |
 | 29 | ... |
 
 
