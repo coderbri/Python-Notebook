@@ -144,17 +144,14 @@
 | 28.5 | [Adding Checkmarks and Resetting the Application](./D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/28.5-Adding_Checkmarks_and_Reset/main.py) |
 
 
-<!-- ### D29 - ...
+### D29 Building a Password Manager GUI App with Tkinter
 
 | N˚ | Concept |
 | :- | :------ |
-| 29.1 | ... |
-| 29.2 | ... |
-| 29.3 | ... |
-| 29.4 | ... |
-| 29.5 | ... |
-| 29.6 | ... | -->
-
+| 29.1 | [Working with Images and Setting up the Canvas](./D29-Tkinter_Password_Manager/29.1-Setting_Up_Canvas/main.py) |
+| 29.2 | Use `grid()` and `columnspan` to Complete the User Interface |
+| 29.3 | Dialog Boxes and Pop-Ups in Tkinter |
+| 29.4 | Generate a Password & Copy it to the Clipboard |
 
 
 ## Projects
@@ -175,7 +172,8 @@
 | 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) |
 | 27 | [Mile to Km Converter](https://github.com/coderbri/27_Mile_to_Km_Converter.git) |
 | 28 | [Pomodoro Timer](https://github.com/coderbri/28_Pomodoro_Timer.git) |
-| 29 | ... |
+| 29 | Password Manager |
+| 30 | ... |
 
 
 <!-- 

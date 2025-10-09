@@ -6,7 +6,6 @@
 
 <!-- Based on Dr. Angela Yu's Python Pro Bootcamp. -->
 
-
 ## Course Content
 
 ### Beginner Concepts
@@ -47,9 +46,9 @@
 | D26 | [List Comprehension & the NATO Alphabet](./Intermediate_Python/D26-List_Comp_and_NATO/) | Intermediate |
 | D27 | [Tkinter, *args, **kwargs & Creating GUI Programs](./Intermediate_Python/D27-Tkinter_GUI_Programs/) | Intermediate |
 | D28 | [Tkinter, Dynamic Typing and the Pomodoro GUI Application](./Intermediate_Python/D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/) | Intermediate |
-| D29 | Building a Password Manager GUI App with Tkinter | Intermediate |
+| D29 | [Building a Password Manager GUI App with Tkinter](./Intermediate_Python/D29-Tkinter_Password_Manager/) | Intermediate |
 | D30 | ... | Intermediate |
-
+| D31 | ... | Intermediate |
 
 
 ## Projects
@@ -84,7 +83,15 @@
 | 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) | Intermediate |
 | 27 | [Mile to Km Converter](https://github.com/coderbri/27_Mile_to_Km_Converter.git) | Intermediate |
 | 28 | [Pomodoro Timer](https://github.com/coderbri/28_Pomodoro_Timer.git) | Intermediate |
-| 29 | ... | Intermediate |
+| 29 | Password Manager | Intermediate |
+| 30 | ... | Intermediate |
+| 31 | ... | Intermediate |
+
+<!-- ### Intermediate+ Concepts
+
+| Day | Section | Level |
+| :-: | :------ | ----: |
+| D32 | ... | Intermediate+ | -->
 
 Course Duration: 2024.10.04 - present
 
