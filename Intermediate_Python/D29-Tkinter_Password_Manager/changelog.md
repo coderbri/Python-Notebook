@@ -1,6 +1,22 @@
 # 29 Tkinter Password Manager - Changelog
 
-## v0.2.0
+## v0.3.0 - Saving Data to File
+
+- Implemented the **Save Data** feature to store user credentials in a local text file.
+- Created a `save_data()` function to retrieve input from the website, email, and password fields.
+- Appended entries to `data.txt` using the format: `Website | Email/Username | Password`
+- Added input-clearing logic after saving for better usability.
+- Left a TODO note to add an in-app confirmation message for successful saves.
+
+<div align="center">
+<img src="./imgs/v0_3_save_data_to-file.png"
+    alt="Window Setup with only the canvas dimensions for the logo."
+    width="200px" height="auto">
+</div>
+
+---
+
+## v0.2.0 - UI Setup
 
 - Completed the user interface layout using `grid()` instead of `pack()`.
 - Implemented a three-column, five-row grid structure for widget alignment.
@@ -16,7 +32,7 @@
 
 ---
 
-## v0.1.0
+## v0.1.0 - Initialize Project
 
 - Created the main application window titled **"Password Manager"**.
 - Configured window padding and background color.

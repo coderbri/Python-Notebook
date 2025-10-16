@@ -1,0 +1,4 @@
+amazon.com | janedoe@mail.com | 12345678
+disney.com | janedoe@mail.com | 87654321
+pythoncamp.org | janedoe@mail.com | 12345678
+Etsy | janedoe@mail.com | password
