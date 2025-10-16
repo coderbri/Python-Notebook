@@ -149,7 +149,7 @@
 | N˚ | Concept |
 | :- | :------ |
 | 29.1 | [Working with Images and Setting up the Canvas](./D29-Tkinter_Password_Manager/29.1-Setting_Up_Canvas/main.py) |
-| 29.2 | Use `grid()` and `columnspan` to Complete the User Interface |
+| 29.2 | [Use `grid()` and `columnspan` to Complete the User Interface](./D29-Tkinter_Password_Manager/29.2-Setting_Up_Grid_and_Columns_for_UI/main.py) |
 | 29.3 | Dialog Boxes and Pop-Ups in Tkinter |
 | 29.4 | Generate a Password & Copy it to the Clipboard |
 
