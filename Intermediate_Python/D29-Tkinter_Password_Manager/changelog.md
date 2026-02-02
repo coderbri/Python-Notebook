@@ -1,5 +1,24 @@
 # 29 Tkinter Password Manager - Changelog
 
+<!-- ## v0.5.0 - Generate a Password & Copy to Clipboard -->
+
+## v0.4.0 - Dialog Boxes and Pop-Ups in Tkinter
+
+- Integrated Tkinter `messagebox` module to provide user feedback.
+- Added validation to prevent saving empty website or password fields.
+- Implemented an informational pop-up to notify users of input errors.
+- Added a confirmation dialog (`askokcancel`) to verify user intent before saving credentials.
+- Ensured data is written to file only after explicit user confirmation.
+- Improved overall user experience with clearer feedback and safer data handling.
+
+<div align="center">
+<img src="./imgs/v0_4_message_popup.png"
+    alt="(BETA) Sample `showinfo` message box to show user inputs before confirmation."
+    width="200px" height="auto">
+</div>
+
+---
+
 ## v0.3.0 - Saving Data to File
 
 - Implemented the **Save Data** feature to store user credentials in a local text file.
