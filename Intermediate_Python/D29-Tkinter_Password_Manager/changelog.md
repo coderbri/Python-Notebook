@@ -1,8 +1,20 @@
 # 29 Tkinter Password Manager - Changelog
 
-<!-- ## v0.5.0 - Generate a Password & Copy to Clipboard -->
+## v0.5.0 - Generate Password & Copy to Clipboard
+**Release Date:** February 2, 2026
+
+- Implemented a secure password generator using letters, numbers, and symbols.
+- Reused and adapted logic from the previous CLI-based password generator project.
+- Randomized password length and character composition for stronger security.
+- Automatically inserts the generated password into the password entry field.
+- Integrated `pyperclip` to copy the generated password to the clipboard for seamless use.
+- Connected the password generator logic to the **Generate Password** button.
+- Completed the core functionality of the Tkinter Password Manager application.
+
+---
 
 ## v0.4.0 - Dialog Boxes and Pop-Ups in Tkinter
+**Release Date:** February 2, 2026
 
 - Integrated Tkinter `messagebox` module to provide user feedback.
 - Added validation to prevent saving empty website or password fields.
