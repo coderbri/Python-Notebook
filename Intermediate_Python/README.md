@@ -158,7 +158,7 @@
 
 | N˚ | Concept |
 | :- | :------ |
-| 30.1   | Catching Exceptions: The `try catch except finally` Pattern |
+| 30.1   | [Catching Exceptions: The `try catch except finally` Pattern](./D30-Errors_and_Exceptions/30.1-Catching_Exceptions/main.py) |
 | 30.1.1 | Coding Exercise 1: `IndexError` Handling |
 | 30.1.2 | Coding Exercise 2: `KeyError` Handling |
 | 30.2   | Exception Handling - NATO Phonetic Alphabet Project |
