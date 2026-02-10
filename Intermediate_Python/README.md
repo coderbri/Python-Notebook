@@ -159,8 +159,8 @@
 | N˚ | Concept |
 | :- | :------ |
 | 30.1   | [Catching Exceptions: The `try catch except finally` Pattern](./D30-Errors_and_Exceptions/30.1-Catching_Exceptions/main.py) |
-| 30.1.1 | Coding Exercise 1: `IndexError` Handling |
-| 30.1.2 | Coding Exercise 2: `KeyError` Handling |
+| 30.1.1 | [Coding Exercise 1: `IndexError` Handling](./D30-Errors_and_Exceptions/CE1_IndexError_Handling/exercise1.py) |
+| 30.1.2 | [Coding Exercise 2: `KeyError` Handling](./D30-Errors_and_Exceptions/CE2_KeyError_Handling/exercise2.py) |
 | 30.2   | Exception Handling - NATO Phonetic Alphabet Project |
 | 30.3   | Create, Read Update JSON Data - Password Manager |
 | 30.4   | Exception Handling - Password Manager |
@@ -186,7 +186,7 @@
 | 27 | [Mile to Km Converter](https://github.com/coderbri/27_Mile_to_Km_Converter.git) |
 | 28 | [Pomodoro Timer](https://github.com/coderbri/28_Pomodoro_Timer.git) |
 | 29 | [Password Manager](./D29-Tkinter_Password_Manager/29.5-Password_Generation/main.py) |
-| 30 | - |
+| 30 | --- No New Projects  --- |
 | 31 | Flash Card App [Capstone Project] |
 
 
