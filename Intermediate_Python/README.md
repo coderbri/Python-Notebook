@@ -161,8 +161,8 @@
 | 30.1   | [Catching Exceptions: The `try catch except finally` Pattern](./D30-Errors_and_Exceptions/30.1-Catching_Exceptions/main.py) |
 | 30.1.1 | [Coding Exercise 1: `IndexError` Handling](./D30-Errors_and_Exceptions/CE1_IndexError_Handling/exercise1.py) |
 | 30.1.2 | [Coding Exercise 2: `KeyError` Handling](./D30-Errors_and_Exceptions/CE2_KeyError_Handling/exercise2.py) |
-| 30.2   | Exception Handling - NATO Phonetic Alphabet Project |
-| 30.3   | Create, Read Update JSON Data - Password Manager |
+| 30.2   | [Exception Handling - NATO Phonetic Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) |
+| 30.3   | [Create, Read Update JSON Data - Password Manager](./D29-Tkinter_Password_Manager/30.3-JSONifying_Data/main.py) |
 | 30.4   | Exception Handling - Password Manager |
 | 30.5   | Search for a Website - Password Manager |
 

@@ -1,5 +1,38 @@
 # 29 Tkinter Password Manager - Changelog
 
+
+## v0.6.0 - Creating, Reading, and Updating JSON Data
+**Release Date:** February 10, 2026
+
+- Migrated data storage from a plain text file to a **JSON** format for improved data structuredness and scalability.
+- Utilized nested dictionaries to store website credentials as key-value pairs (Website -> Email/Password).
+- Implemented `json.load()` to retrieve existing data and `json.update()` to merge new entries seamlessly.
+- Used `json.dump()` with an `indent=4` parameter to ensure the saved file remains human-readable.
+- Data is now saved as a `.json` file instead of `.txt`.
+- Integrated a search-like logic where the program reads the current database before appending new information.
+
+Before:
+
+    ```
+    amazon.com | janedoe@mail.com | 12345678
+    ```
+
+After: 
+
+    ```
+    {
+        "HSR": {
+            "email": "stelle@astralexp.com",
+            "password": "iB5t#oG)Wg70"
+        },
+        ...
+    }
+    ```
+
+- **Future Improvement:** The current version requires a pre-existing `data.json` file; the next update will focus on **Exception Handling** (`try-except`) to automatically create the file if it is missing.
+
+---
+
 ## v0.5.0 - Generate Password & Copy to Clipboard
 **Release Date:** February 2, 2026
 
