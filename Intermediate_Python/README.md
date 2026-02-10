@@ -151,8 +151,20 @@
 | 29.1 | [Working with Images and Setting up the Canvas](./D29-Tkinter_Password_Manager/29.1-Setting_Up_Canvas/main.py) |
 | 29.2 | [Use `grid()` and `columnspan` to Complete the User Interface](./D29-Tkinter_Password_Manager/29.2-Setting_Up_Grid_and_Columns_for_UI/main.py) |
 | 29.3 | [Saving Data to File](./D29-Tkinter_Password_Manager/29.3-Saving_Data_to_File/main.py) |
-| 29.4 | Dialog Boxes and Pop-Ups in Tkinter |
-| 29.5 | Generate a Password & Copy it to the Clipboard |
+| 29.4 | [Dialog Boxes and Pop-Ups in Tkinter](./D29-Tkinter_Password_Manager/29.4-Dialog_Boxes_and_PopUps/main.py) |
+| 29.5 | [Generate a Password & Copy it to the Clipboard](./D29-Tkinter_Password_Manager/29.5-Password_Generation/main.py) |
+
+### D30 Errors, Exceptions and JSON Data: Improving Past Projects
+
+| N˚ | Concept |
+| :- | :------ |
+| 30.1   | Catching Exceptions: The `try catch except finally` Pattern |
+| 30.1.1 | Coding Exercise 1: `IndexError` Handling |
+| 30.1.2 | Coding Exercise 2: `KeyError` Handling |
+| 30.2   | Exception Handling - NATO Phonetic Alphabet Project |
+| 30.3   | Create, Read Update JSON Data - Password Manager |
+| 30.4   | Exception Handling - Password Manager |
+| 30.5   | Search for a Website - Password Manager |
 
 
 ## Projects
@@ -173,8 +185,9 @@
 | 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) |
 | 27 | [Mile to Km Converter](https://github.com/coderbri/27_Mile_to_Km_Converter.git) |
 | 28 | [Pomodoro Timer](https://github.com/coderbri/28_Pomodoro_Timer.git) |
-| 29 | Password Manager |
-| 30 | ... |
+| 29 | [Password Manager](./D29-Tkinter_Password_Manager/29.5-Password_Generation/main.py) |
+| 30 | - |
+| 31 | Flash Card App [Capstone Project] |
 
 
 <!-- 
