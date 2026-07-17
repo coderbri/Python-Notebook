@@ -166,6 +166,15 @@
 | 30.4   | [Exception Handling - Password Manager](./D29-Tkinter_Password_Manager/30.4-Exception_Handling/main.py) |
 | 30.5   | [Search for a Website - Password Manager](./D29-Tkinter_Password_Manager/30.5-Searching_for_Website/main.py) |
 
+### D31 Flash Card App — Capstone Project
+
+| N˚ | Concept |
+| :- | :------ |
+| 31.1 | Setup: Creating the UI |
+| 31.2 | Create New Flash Cards |
+| 31.3 | Flipping the Card |
+| 31.4 | Saving Your Progress |
+
 
 ## Projects
 
