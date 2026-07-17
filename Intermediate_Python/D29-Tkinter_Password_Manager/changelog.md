@@ -1,5 +1,56 @@
 # 29 + 30 Tkinter Password Manager - Changelog
 
+## v0.8.0 – Search for Existing Website
+**Release Date:** July 17, 2026
+
+### Changes
+
+- Added a **Search** button to retrieve saved credentials by website.
+- Implemented a `find_password()` function to search the local `data.json` database.
+- Loaded and parsed credential data using `json.load()`.
+- Displayed the stored **email** and **password** in a Tkinter message box when a matching website was found.
+- Added user feedback when:
+  - the database (`data.json`) does not exist.
+  - the requested website has not been saved.
+- Updated the UI layout to accommodate the new Search button alongside the Website entry field.
+
+### Developer Notes
+
+This version introduced **reading and querying JSON data** rather than only writing to it.
+
+The search workflow follows these steps:
+
+1. Retrieve the website entered by the user.
+2. Attempt to open and read `data.json`.
+3. Handle a missing database using `FileNotFoundError`.
+4. Search the loaded dictionary for the requested website.
+5. Display the stored credentials if a match exists.
+6. Otherwise, notify the user that no credentials were found.
+
+This release also reinforced working with Python dictionaries:
+
+```json
+{
+    "Amazon": {
+        "email": "janedoe@gmail.com",
+        "password": "Ab3$9kP!"
+    }
+}
+```
+
+where:
+- the **website** acts as the dictionary key.
+- each website maps to a nested dictionary containing its corresponding **email** and **password**.
+
+
+<div align="center">
+<img src="./imgs/v0_8_json_search_button.png"
+    alt="Window Setup with only the canvas dimensions for the logo."
+    width="200px" height="auto">
+</div>
+
+---
+
 ## v0.7.0 - Error Handling with JSON and Exceptions
 **Release Date:** July 16, 2026
 

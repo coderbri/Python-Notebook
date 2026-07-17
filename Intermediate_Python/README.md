@@ -164,7 +164,7 @@
 | 30.2   | [Exception Handling - NATO Phonetic Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) |
 | 30.3   | [Create, Read Update JSON Data - Password Manager](./D29-Tkinter_Password_Manager/30.3-JSONifying_Data/main.py) |
 | 30.4   | [Exception Handling - Password Manager](./D29-Tkinter_Password_Manager/30.4-Exception_Handling/main.py) |
-| 30.5   | Search for a Website - Password Manager |
+| 30.5   | [Search for a Website - Password Manager](./D29-Tkinter_Password_Manager/30.5-Searching_for_Website/main.py) |
 
 
 ## Projects
@@ -185,7 +185,7 @@
 | 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) |
 | 27 | [Mile to Km Converter](https://github.com/coderbri/27_Mile_to_Km_Converter.git) |
 | 28 | [Pomodoro Timer](https://github.com/coderbri/28_Pomodoro_Timer.git) |
-| 29 | [Password Manager](./D29-Tkinter_Password_Manager/29.5-Password_Generation/main.py) |
+| 29 | [Password Manager](./D29-Tkinter_Password_Manager/30.5-Searching_for_Website/main.py) |
 | 30 | --- No New Project --- |
 | 31 | Flash Card App [Capstone Project] |
 
