@@ -1,5 +1,47 @@
-# 29 Tkinter Password Manager - Changelog
+# 29 + 30 Tkinter Password Manager - Changelog
 
+## v0.7.0 - Error Handling with JSON and Exceptions
+**Release Date:** July 16, 2026
+
+### Changes
+
+- Implemented Python's **`try-except-else-finally`** pattern to safely manage JSON file operations.
+- Resolved the `FileNotFoundError` by automatically creating a new `data.json` file if one does not already exist.
+- Improved the save workflow:
+  - **Try:** Attempt to open and read the existing JSON database.
+  - **Except (`FileNotFoundError`):** Create a new database and write the first set of credentials.
+  - **Else:** Load the existing data, merge the new credentials, and overwrite the JSON file.
+  - **Finally:** Clear the Website and Password input fields regardless of whether the operation succeeded or failed.
+- Eliminated the requirement for users to manually create a `data.json` file before using the application.
+- Improved reliability for first-time application launches.
+
+### Developer Notes
+
+This version served as an introduction to **Python exception handling** and defensive programming.
+
+The primary objective was to understand the `try-except-else-finally` control flow:
+
+```python
+try:
+    # Code that may raise an exception
+except:
+    # Handle the exception
+else:
+    # Execute if no exception occurred
+finally:
+    # Always execute
+```
+
+During development, I learned about several common Python exceptions:
+
+| Exception | When it occurs | Application to this project |
+|-----------|----------------|-----------------------------|
+| `FileNotFoundError` | Attempting to open a file that doesn't exist | Used to automatically create `data.json` on first launch. |
+| `KeyError` | Accessing a dictionary key that doesn't exist | Relevant for future lookup/search functionality when retrieving website credentials. |
+| `IndexError` | Accessing an invalid list index | General Python error encountered when working with lists. |
+| `TypeError` | Performing an operation on incompatible data types | Useful reminder when validating or manipulating user input. |
+
+---
 
 ## v0.6.0 - Creating, Reading, and Updating JSON Data
 **Release Date:** February 10, 2026
