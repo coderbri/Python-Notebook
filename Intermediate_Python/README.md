@@ -198,7 +198,7 @@
 | 30 | --- No New Project --- |
 | 31 | [Flash Card App](./D31-Flash_Card_App/main.py) [Capstone Project] |
 
-
-<!-- 
-| D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 | D11 | D12 | D14 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | -->
+---
+<section align="center">
+  <code>coderBri © 2026</code>
+</section>

@@ -47,8 +47,15 @@
 | D27 | [Tkinter, *args, **kwargs & Creating GUI Programs](./Intermediate_Python/D27-Tkinter_GUI_Programs/) | Intermediate |
 | D28 | [Tkinter, Dynamic Typing and the Pomodoro GUI Application](./Intermediate_Python/D28-Pomodoro_App_with_Tkinter_Dynamic_Typing/) | Intermediate |
 | D29 | [Building a Password Manager GUI App with Tkinter](./Intermediate_Python/D29-Tkinter_Password_Manager/) | Intermediate |
-| D30 | ... | Intermediate |
-| D31 | ... | Intermediate |
+| D30 | [Errors and Exception Handling](./Intermediate_Python/D30-Errors_and_Exceptions/) | Intermediate |
+| D31 | [Capstone Project: Flash Card App](./Intermediate_Python/D31-Flash_Card_App/) | Intermediate |
+
+
+### Intermediate+ Concepts
+
+| Day | Section | Level |
+| :-: | :------ | ----: |
+| D32 | [Email SMTP and the datetime Module](./IntermediatePlus_Python/D32-Email_SMTP/) | Intermediate+ |
 
 
 ## Projects
@@ -84,18 +91,20 @@
 | 27 | [Mile to Km Converter](https://github.com/coderbri/27_Mile_to_Km_Converter.git) | Intermediate |
 | 28 | [Pomodoro Timer](https://github.com/coderbri/28_Pomodoro_Timer.git) | Intermediate |
 | 29 | Password Manager | Intermediate |
-| 30 | ... | Intermediate |
-| 31 | ... | Intermediate |
+| 30 | --- same as above --- | Intermediate |
+| 31 | [Flash Card App [Capstone Project]](/Intermediate_Python/D31-Flash_Card_App/main.py) | Intermediate |
+| 32 | ... | Intermediate+ |
+| 33 | ... | Intermediate+ |
 
-<!-- ### Intermediate+ Concepts
+<!-- ### Advanced Concepts
 
 | Day | Section | Level |
 | :-: | :------ | ----: |
-| D32 | ... | Intermediate+ | -->
+| 58 | ... | Advanced | -->
 
 Course Duration: 2024.10.04 - present
 
 ---
 <section align="center">
-  <code>coderBri © 2025</code>
+  <code>coderBri © 2026</code>
 </section>
