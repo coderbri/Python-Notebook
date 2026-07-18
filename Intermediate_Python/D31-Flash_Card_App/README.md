@@ -1,5 +1,28 @@
 # Flash Card App - Capstone Project
 
+<div align="center">
+<img src="./images/readme-assets/31_FlashCardApp_Demo.GIF"
+    alt="Flash Card App Demo"
+    width="350px" height="auto">
+</div>
+
+## 31.4 • Saving Your Progress
+**Release Date:** July 17, 2026
+
+
+- **Implemented Persistent Progress:** Added logic to track user learning by removing "known" words from the active list and saving the remainder to `data/words_to_learn.csv`.
+  <div align="center">
+  <img src="./images/readme-assets/new_list_added_if_is_known.png"
+      alt="Newly created CSV file for remaining words to learn"
+      width="250px" height="auto">
+  </div>
+
+- **Added Error Handling:** Integrated `try-except-else` blocks to check for existing progress files on startup. The app now intelligently defaults to the original `french_words.csv` only if a progress file is missing.
+- **Optimized Data Export:** Configured `to_csv(index=False)` when saving the remaining deck. This prevents the duplication of index columns, ensuring the CSV format remains clean and consistent for future re-importing.
+- **Refined Interaction Flow:** Updated the "Known" button command to trigger `is_known()`, effectively updating the database before seamlessly transitioning to the next card.
+
+---
+
 ## 31.3 • Implementing Card Flip Logic
 **Release Date:** July 17, 2026
 

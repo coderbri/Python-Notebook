@@ -4,18 +4,27 @@ import random
 
 BACKGROUND_COLOR = "#B1DDC6"
 FONT_NAME = "Ariel"
+current_card = {}
+words_to_learn = {}
 
 # ------------------------- Vocabulary CSV Extraction ------------------------ #
-data = pandas.read_csv("data/french_words.csv")
-vocab_to_learn = data.to_dict(orient="records")
-current_card = {}
+try:
+    # Attempt to load progress from a previous session
+    data = pandas.read_csv("data/words_to_learn.csv")
+except FileNotFoundError:
+    # Fallback ot the full vocabulary list if no progress file exists
+    original_data = pandas.read_csv("data/french_words.csv")
+    words_to_learn = original_data.to_dict(orient="records")
+else:
+    words_to_learn = data.to_dict(orient="records")
+
 
 # --------------------------------- Next Card -------------------------------- #
 def next_card():
     """Selects a new random card and resets the 3-second flip timer."""
     global current_card, flip_timer
     window.after_cancel(flip_timer) # Stop existing timer if user clicks early
-    current_card = random.choice(vocab_to_learn)
+    current_card = random.choice(words_to_learn)
 
     # UI for French Vocabulary
     canvas.itemconfig(language_title_text, text="French", fill="black")
@@ -30,6 +39,16 @@ def flip_card():
     canvas.itemconfig(language_title_text, text="English", fill="white")
     canvas.itemconfig(vocab_word_text, text=current_card["English"], fill="white")
     canvas.itemconfig(card_background, image=card_back_img)
+
+def is_known():
+    """Removes the current card from the deck and saves remaining progress to CSV."""
+    words_to_learn.remove(current_card)
+
+    # Update progress file: index=False prevents pandas from adding redundant row numbers
+    unlearned_words = pandas.DataFrame(words_to_learn)
+    unlearned_words.to_csv("data/words_to_learn.csv", index=False)
+
+    next_card()
 
 # --------------------------------- UI Setup --------------------------------- #
 window = Tk()
@@ -56,7 +75,7 @@ unknown_button = Button(image=cross_image, highlightthickness=0, command=next_ca
 unknown_button.grid(row=1, column=0)
 
 check_image = PhotoImage(file="images/right.png")
-known_button = Button(image=check_image, highlightthickness=0, command=next_card)
+known_button = Button(image=check_image, highlightthickness=0, command=is_known)
 known_button.grid(row=1, column=1)
 
 next_card() # Initialize app state with random card
