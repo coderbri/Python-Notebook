@@ -9,8 +9,8 @@
 ## 31.4 • Saving Your Progress
 **Release Date:** July 17, 2026
 
-
 - **Implemented Persistent Progress:** Added logic to track user learning by removing "known" words from the active list and saving the remainder to `data/words_to_learn.csv`.
+  
   <div align="center">
   <img src="./images/readme-assets/new_list_added_if_is_known.png"
       alt="Newly created CSV file for remaining words to learn"
@@ -37,8 +37,18 @@
 
 - **Implemented Pandas Data Extraction:** Integrated `pandas` to read the `french_words.csv` file. 
 - **Optimized Data Formatting:** Converted raw CSV data into a list of dictionaries using `data.to_dict(orient="records")`. This approach improves data accessibility compared to the default `to_dict()` behavior:
-    - **Default (Nested):** Creates a column-centric structure: `{'French': {0: 'partie', 1: 'histoire'}, 'English': {0: 'part', 1: 'history'}}`. This requires complex indexing to access specific word pairs.
-    - **`orient="records"` (Flat):** Creates an iterable list of row-centric dictionaries: `[{'French': 'partie', 'English': 'part'}, {'French': 'histoire', 'English': 'history'}]`. This allows for direct key-based access (e.g., `current_card["French"]`).
+    - **Default (Nested):** Creates a column-centric structure: 
+      ```py
+      {'French': {0: 'partie', 1: 'histoire'}, 'English': {0: 'part', 1: 'history'}}
+      ```
+      This requires complex indexing to access specific word pairs.
+      
+    - **`orient="records"` (Flat):** Creates an iterable list of row-centric dictionaries:
+      ```py
+      [{'French': 'partie', 'English': 'part'}, {'French': 'histoire', 'English': 'history'}]`. 
+      ```
+      This allows for direct key-based access (e.g., `current_card["French"]`).
+      
 - **Added `next_card()` Functionality:** Created core logic to randomly select a dictionary entry from the vocabulary list using `random.choice()`.
 - **Dynamic UI Updates:** Configured the `next_card()` function to update the canvas text elements (`language_title` and `vocab_word`) with the selected French vocabulary.
 - **Event Binding:** Linked both the "Known" and "Unknown" buttons to the `next_card()` function to trigger a fresh word selection upon every click.
