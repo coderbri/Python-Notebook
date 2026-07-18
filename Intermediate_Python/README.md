@@ -166,13 +166,13 @@
 | 30.4   | [Exception Handling - Password Manager](./D29-Tkinter_Password_Manager/30.4-Exception_Handling/main.py) |
 | 30.5   | [Search for a Website - Password Manager](./D29-Tkinter_Password_Manager/30.5-Searching_for_Website/main.py) |
 
-### D31 Flash Card App — Capstone Project
+### D31 Flash Card App [Capstone Project]
 
 | N˚ | Concept |
 | :- | :------ |
 | 31.1 | Setup: Creating the UI |
-| 31.2 | Create New Flash Cards |
-| 31.3 | Flipping the Card |
+| 31.2 | Data Integration & Creating a New Card Logic |
+| 31.3 | Implementing Card Flip Logic |
 | 31.4 | Saving Your Progress |
 
 
@@ -196,7 +196,7 @@
 | 28 | [Pomodoro Timer](https://github.com/coderbri/28_Pomodoro_Timer.git) |
 | 29 | [Password Manager](./D29-Tkinter_Password_Manager/30.5-Searching_for_Website/main.py) |
 | 30 | --- No New Project --- |
-| 31 | Flash Card App [Capstone Project] |
+| 31 | [Flash Card App](./D31-Flash_Card_App/main.py) [Capstone Project] |
 
 
 <!-- 

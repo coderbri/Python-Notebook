@@ -1,6 +1,15 @@
 # Flash Card App - Capstone Project
 
-## 31.2 • Data Integration & Card Logic
+## 31.3 • Implementing Card Flip Logic
+**Release Date:** July 17, 2026
+
+- **Implemented Auto-Flip Timer:** Integrated `window.after(3000, ...)` to automatically trigger the `flip_card()` function after a 3-second delay, revealing the English translation.
+- **Added Timer Reset Logic:** Incorporated `window.after_cancel(flip_timer)` within the `next_card()` function. This ensures the countdown resets every time the user manually selects a new card, preventing overlapping timers.
+- **UI State Management:** Updated `flip_card()` to modify canvas text colors (from black to white) and swap the background image to `card_back.png` for a distinct "flipped" visual effect.
+
+---
+
+## 31.2 • Data Integration & Creating a New Card Logic
 **Release Date:** July 17, 2026
 
 - **Implemented Pandas Data Extraction:** Integrated `pandas` to read the `french_words.csv` file. 
@@ -13,7 +22,7 @@
 
 ---
 
-## 31.1 • Creating the UI
+## 31.1 • Setup: Creating the UI
 **Release Date:** July 17, 2026
 
 - Created the main Tkinter application window.
