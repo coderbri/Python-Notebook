@@ -1,7 +1,7 @@
 # Python-Notebook
 
 
-| [Beginner](#beginner-concepts) | [Intermediate](#intermediate-concepts) | Intermediate+ | Advanced | Professional | Projects |
+| [Beginner](#beginner-concepts) | [Intermediate](#intermediate-concepts) | [Intermediate+](#intermediate-concepts-1) | Advanced | Professional | Projects |
 | :------: | :----------: | :-----------: | :------: | :----------: | :------: |
 
 <!-- Based on Dr. Angela Yu's Python Pro Bootcamp. -->
@@ -55,7 +55,8 @@
 
 | Day | Section | Level |
 | :-: | :------ | ----: |
-| D32 | [Email SMTP and the datetime Module](./IntermediatePlus_Python/D32-Email_SMTP/) | Intermediate+ |
+| D32 | [Email SMTP and the datetime Module](#) | Intermediate+ |
+| D33 | [API Endpoints & API Parameters – ISS Overhead Notifier](#) | Intermediate+ |
 
 
 ## Projects
@@ -90,7 +91,7 @@
 | 26 | [NATO Alphabet Project](https://github.com/coderbri/26_NATO_Phonetic_Speller.git) | Intermediate |
 | 27 | [Mile to Km Converter](https://github.com/coderbri/27_Mile_to_Km_Converter.git) | Intermediate |
 | 28 | [Pomodoro Timer](https://github.com/coderbri/28_Pomodoro_Timer.git) | Intermediate |
-| 29 | Password Manager | Intermediate |
+| 29 | [Password Manager](./Intermediate_Python/D29-Tkinter_Password_Manager/30.5-Searching_for_Website/main.py) | Intermediate |
 | 30 | --- same as above --- | Intermediate |
 | 31 | [Flash Card App [Capstone Project]](/Intermediate_Python/D31-Flash_Card_App/main.py) | Intermediate |
 | 32 | ... | Intermediate+ |
